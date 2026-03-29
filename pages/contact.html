@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
   <meta charset="UTF-8">
@@ -12,16 +12,14 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-  <title>Kanju</title>
+  <title>Kanju - Liên hệ</title>
   <link rel="icon" type="image/x-icon" href="/assets/img/logoicon-Photoroom.png">
 </head>
 
 <body>
   <div id="page-overlay"></div>
-  <!-- ======================= -->
-  <!-- sign-up, sign in -->
-  <!-- ======================= -->
-  <!-- Pop-up Overlay -->
+  
+  <!-- Pop-up Đăng nhập/Đăng ký -->
   <div id="pop-up-overlay__placeholder"></div>
 
   <div id="mainContent">
@@ -29,14 +27,14 @@
       <div id="navbar__placeholder"></div>
       <div id="mobile-menu__placeholder"></div>
     </header>
+
     <main>
       <div class="container">
-        <!-- GET IN TOUCH -->
+        <!-- THÔNG TIN LIÊN HỆ -->
         <div class="left-section">
-          <h1>Get in touch</h1>
+          <h1>Liên hệ với chúng tôi</h1>
           <p>
-            To find out more about how our content and services can help your
-            organization
+            Tìm hiểu thêm về cách nội dung và dịch vụ của Kanju có thể giúp ích cho tổ chức của bạn.
           </p>
 
           <div class="contact-info">
@@ -44,114 +42,116 @@
               <div class="icon">
                 <i class="fab fa-facebook-f"></i>
               </div>
-              <div>/aurew.fb</div>
+              <div>/kanju.fb</div>
             </div>
             <div class="contact-item">
               <div class="icon">
                 <i class="fab fa-instagram"></i>
               </div>
-              <div>/aurew.ig</div>
+              <div>/kanju.ig</div>
             </div>
             <div class="contact-item">
               <div class="icon">
                 <i class="fab fa-x-twitter"></i>
               </div>
-              <div>/aurew.x</div>
+              <div>/kanju.x</div>
             </div>
             <div class="contact-item">
               <div class="icon">
                 <i class="fab fa-youtube"></i>
               </div>
-              <div>/aurew.yt</div>
+              <div>/kanju.yt</div>
             </div>
             <div class="contact-item">
               <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-              <div>aurew@gmail.com</div>
+              <div>contact@kanju.vn</div>
             </div>
             <div class="contact-item">
               <div class="icon"><i class="fa-solid fa-phone"></i></div>
-              <div>0123456789</div>
+              <div>0123 456 789</div>
             </div>
           </div>
         </div>
-        <!-- CONTACT FORM -->
+
+        <!-- FORM LIÊN HỆ -->
         <div class="right-section">
           <form id="contactForm">
             <div class="form-row">
               <div class="form-group">
-                <label>First Name <span>*</span></label>
-                <input type="text" required>
+                <label>Họ <span>*</span></label>
+                <input type="text" placeholder="Nhập họ" required>
               </div>
               <div class="form-group">
-                <label>Last Name <span>*</span></label>
-                <input type="text" required>
+                <label>Tên <span>*</span></label>
+                <input type="text" placeholder="Nhập tên" required>
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group">
-                <label>Company <span>*</span></label>
-                <input type="text" required>
+                <label>Công ty <span>*</span></label>
+                <input type="text" placeholder="Tên công ty/tổ chức" required>
               </div>
               <div class="form-group">
-                <label>Company type <span>*</span></label>
+                <label>Loại hình công ty <span>*</span></label>
                 <select required>
-                  <option value="">Select...</option>
-                  <option value="startup">Startup</option>
-                  <option value="enterprise">Enterprise</option>
-                  <option value="agency">Agency</option>
-                  <option value="other">Other</option>
+                  <option value="">Chọn loại hình...</option>
+                  <option value="startup">Khởi nghiệp (Startup)</option>
+                  <option value="enterprise">Doanh nghiệp lớn</option>
+                  <option value="agency">Đại lý/Agency</option>
+                  <option value="other">Khác</option>
                 </select>
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group">
-                <label>Work Email <span>*</span></label>
-                <input type="email" required>
+                <label>Email công việc <span>*</span></label>
+                <input type="email" placeholder="email@congty.com" required>
               </div>
               <div class="form-group phone-wrapper">
-                <label>Work Phone <span>*</span></label>
+                <label>Số điện thoại <span>*</span></label>
                 <div class="phone-input">
                   <div class="country-code">
                     <span class="flag">🇻🇳</span>
                     <span>+84</span>
                   </div>
-                  <input type="tel" placeholder="123-456-7890" required>
+                  <input type="tel" placeholder="090 123 4567" required>
                 </div>
               </div>
             </div>
 
             <div class="form-group">
-              <label>Country <span>*</span></label>
+              <label>Quốc gia <span>*</span></label>
               <select required>
-                <option value="">Select country...</option>
-                <option value="vn">Vietnam</option>
-                <option value="us">United States</option>
-                <option value="uk">United Kingdom</option>
+                <option value="">Chọn quốc gia...</option>
+                <option value="vn" selected>Việt Nam</option>
+                <option value="us">Hoa Kỳ</option>
+                <option value="uk">Vương Quốc Anh</option>
                 <option value="sg">Singapore</option>
-                <option value="other">Other</option>
+                <option value="other">Khác</option>
               </select>
             </div>
 
             <div class="form-group">
-              <label>Reason for contacting us: <span>*</span></label>
-              <input type="text" required>
+              <label>Lý do liên hệ: <span>*</span></label>
+              <input type="text" placeholder="Ví dụ: Tư vấn dịch vụ, Hợp tác..." required>
             </div>
 
             <div class="form-group">
-              <label>Tell us more about your needs so we can get back to you:
+              <label>Chia sẻ thêm về nhu cầu của bạn để chúng tôi hỗ trợ tốt nhất:
                 <span>*</span></label>
-              <textarea required></textarea>
+              <textarea placeholder="Nội dung tin nhắn..." required></textarea>
             </div>
 
-            <button type="submit" class="submit-btn">Submit</button>
+            <button type="submit" class="submit-btn">Gửi thông tin</button>
           </form>
         </div>
       </div>
     </main>
     <div id="footer__placeholder"></div>
   </div>
+
   <script type="module" src="../components/Navbar/Navbar.js"></script>
   <script src="../components/PopUpOverlay/PopUpOverlay.js"></script>
   <script type="module" src="../components/Footer/Footer.js"></script>
