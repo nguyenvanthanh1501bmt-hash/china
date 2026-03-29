@@ -13,16 +13,16 @@ function createFooter() {
     <footer>
             <div class="footer__container">
                 <div class="footer__newsletter">
-                    <h2 class="newsletter__title">Get updates delivered directly to your inbox.</h2>
+                    <h2 class="newsletter__title">Nhận thông báo cập nhật trực tiếp vào hộp thư đến của bạn.</h2>
                     <!-- đổi div thành form -->
                     <form class="newsletter__formbox">
                         <input type="text" placeholder="Enter your email">
                         <button type="submit">Subscribe</button>
                     </form>
-                    <p class="siteinfo__description">By subcribing you agree to our <a href="/">Privacy Policy</a> and
-                        provide
-                        consent
-                        to receive updates from our company
+                    <p class="siteinfo__description">Bằng cách đăng ký, bạn đồng ý với <a href="/">Chính sách bảo mật</a> của chúng tôi và
+
+đồng ý
+nhận thông tin cập nhật từ công ty chúng tôi
                     </p>
                 </div>
                 <div class="siteinfo__right">
@@ -42,10 +42,10 @@ function createFooter() {
                     </div>
                     <div class="email">
                         <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:aurews@gmail.com">aurews@gmail.com</p>
+                        <a href="mailto:aurews@gmail.com">kanju@gmail.com</a>
                     </div>
                     <div class="end">
-                        <p>© 2025 Nhóm 13, Inc. All rights reserved.</p>
+                        <p>© 2026 kanju, Inc. All rights reserved.</p>
                     </div>
                     <div class="options__container">
                         <ul class="option">
