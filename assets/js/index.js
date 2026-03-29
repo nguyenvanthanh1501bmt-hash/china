@@ -77,8 +77,19 @@ function renderTopics() {
 
   topics.forEach((topic, index) => {
     const container = topicContainers[index];
-    container.querySelector('h2').textContent = topic.title;
+    if (!container) return;
 
+    // Ép tên theo đúng thứ tự xuất hiện trên trang web của bạn
+    let displayTitle = "";
+    if (index === 0) displayTitle = "Đời sống";   // Ô đầu tiên
+    if (index === 1) displayTitle = "Sức khỏe";   // Ô thứ hai
+    if (index === 2) displayTitle = "Ẩm thực";    // Ô thứ ba
+    if (index === 3) displayTitle = "Công việc";  // Ô thứ tư
+    
+    // Nếu không thuộc 4 ô trên thì lấy tên gốc
+    if (!displayTitle) displayTitle = topic.title;
+
+    // Tạo HTML cho danh sách bài viết
     const newsHTML = topic.news.map(item => `
       <div class="news">
         <div class="news__img">
@@ -90,8 +101,12 @@ function renderTopics() {
       </div>
     `).join('');
 
-    const blockHTML = container.querySelector('.block').outerHTML;
-    container.innerHTML = `<h2>${topic.title}</h2>${newsHTML}${blockHTML}`;
+    // Giữ lại cái khung quảng cáo (block) nếu có
+    const blockElement = container.querySelector('.block');
+    const blockHTML = blockElement ? blockElement.outerHTML : '';
+
+    // Ghi đè vào giao diện
+    container.innerHTML = `<h2>${displayTitle}</h2>${newsHTML}${blockHTML}`;
   });
 }
 
@@ -162,7 +177,7 @@ function setupClickHandlers() {
   const featuredBox = document.querySelector('.boxupperleft');
   if (featuredBox && newsData.featured.id) {
     featuredBox.addEventListener('click', () => {
-      window.location.href = `./post.html?id=${newsData.featured.id}`;
+      window.location.href = `../../pages/post.html?id=${newsData.featured.id}`;
     });
   }
 
@@ -172,7 +187,7 @@ function setupClickHandlers() {
     const newsItem1 = newsData.latest[index];
     if (newsItem1 && newsItem1.id) {
       item.addEventListener('click', () => {
-        window.location.href = `./post.html?id=${newsItem1.id}`;
+        window.location.href = `../../pages/post.html?id=${newsItem1.id}`;
       });
     }
   });
@@ -182,7 +197,7 @@ function setupClickHandlers() {
     const newsItem = newsData.threeNews[index];
     if (newsItem && newsItem.id) {
       item.addEventListener('click', () => {
-        window.location.href = `./post.html?id=${newsItem.id}`;
+        window.location.href = `../../pages/post.html?id=${newsItem.id}`;
       });
     }
   });
@@ -191,7 +206,7 @@ function setupClickHandlers() {
   const lifestyleBig = document.querySelector('.bignews');
   if (lifestyleBig && newsData.lifestyle.big.id) {
     lifestyleBig.addEventListener('click', () => {
-      window.location.href = `./post.html?id=${newsData.lifestyle.big.id}`;
+      window.location.href = `../../pages/post.html?id=${newsData.lifestyle.big.id}`;
     });
   }
 
@@ -201,7 +216,7 @@ function setupClickHandlers() {
     const newsItem = newsData.lifestyle.small[index];
     if (newsItem && newsItem.id) {
       item.addEventListener('click', () => {
-        window.location.href = `./post.html?id=${newsItem.id}`;
+        window.location.href = `../../pages/post.html?id=${newsItem.id}`;
       });
     }
   });
@@ -215,7 +230,7 @@ function setupClickHandlers() {
       const newsItem = topic.news[newsIndex];
       if (newsItem && newsItem.id) {
         item.addEventListener('click', () => {
-          window.location.href = `./post.html?id=${newsItem.id}`;
+          window.location.href = `../../pages/post.html?id=${newsItem.id}`;
         });
       }
     });
@@ -225,7 +240,7 @@ function setupClickHandlers() {
   const aiMain = document.querySelector('.AI_maintopic');
   if (aiMain && newsData.ai.main.id) {
     aiMain.addEventListener('click', () => {
-      window.location.href = `./post.html?id=${newsData.ai.main.id}`;
+      window.location.href = `../../pages/post.html?id=${newsData.ai.main.id}`;
     });
   }
 
@@ -235,7 +250,7 @@ function setupClickHandlers() {
     const newsItem = newsData.ai.sideNews[index];
     if (newsItem && newsItem.id) {
       item.addEventListener('click', () => {
-        window.location.href = `./post.html?id=${newsItem.id}`;
+        window.location.href = `../../pages/post.html?id=${newsItem.id}`;
       });
     }
   });
@@ -246,7 +261,7 @@ function setupClickHandlers() {
     const newsItem = newsData.popular.grid1[index];
     if (newsItem && newsItem.id) {
       item.addEventListener('click', () => {
-        window.location.href = `./post.html?id=${newsItem.id}`;
+        window.location.href = `../../pages/post.html?id=${newsItem.id}`;
       });
     }
   });
@@ -255,7 +270,7 @@ function setupClickHandlers() {
   const businessMain = document.querySelector('.bussiness__news');
   if (businessMain && newsData.popular.businessMain.id) {
     businessMain.addEventListener('click', () => {
-      window.location.href = `./post.html?id=${newsData.popular.businessMain.id}`;
+      window.location.href = `../../pages/post.html?id=${newsData.popular.businessMain.id}`;
     });
   }
 
@@ -266,7 +281,7 @@ function setupClickHandlers() {
       const newsItem = newsData.popular.grid3[index];
       if (newsItem && newsItem.id) {
         item.addEventListener('click', () => {
-          window.location.href = `./post.html?id=${newsItem.id}`;
+          window.location.href = `../../pages/post.html?id=${newsItem.id}`;
         });
       }
     }
