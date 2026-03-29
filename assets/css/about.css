@@ -1,0 +1,792 @@
+/* || VARIABLES */
+:root {
+  /* COLORS */
+  --FONT-COLOR: #000000;
+  --LINK-HOVER-COLOR: brown;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+/* || MAIN *
+/* FAQ */
+.FAQ-section {
+  max-width: 1440px;
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  gap: 0;
+  align-items: stretch;
+  /* Thêm flex-wrap để các box tự nhảy hàng trên thiết bị nhỏ */
+  flex-wrap: wrap; 
+  /* Đảm bảo không bị tràn bề ngang trên mobile */
+  box-sizing: border-box; 
+  padding: 0 20px; /* Padding nhẹ cho toàn bộ section trên mobile */
+}
+
+.social-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: aquamarine;
+  box-sizing: border-box;
+  
+  /* CẤU TRÚC RESPONSIVE MỚI */
+  flex: 1 1 291px; /* Grow: 1, Shrink: 1, Basis: 291px */
+  max-width: 100%; /* Ngăn tràn màn hình */
+  
+  /* Phần animation ban đầu giữ nguyên */
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  z-index: 1; /* Đảm bảo nằm trên contact-box khi trượt */
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.social-box .social-title {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: var(--FONT-COLOR);
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: var(--LINK-HOVER-COLOR); 
+  color: white; 
+}
+
+
+  /* Đây là box "Get in touch" */
+.contact-box { 
+  max-width: max(70vw, 733px);
+  width: 100%; 
+  flex-grow: 1; 
+  /* Margin lớn như này là để tạo hiệu ứng cột cao cột thấp, cố tình tạo asymetry */
+  margin-top: 54px; 
+  height: auto; 
+  min-height: 142px; 
+  background-color: aqua; 
+  box-sizing: border-box; 
+
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 40px;
+}
+
+.contact-box h3 {
+  font-size: clamp(1.2rem, 2.8vw, 2rem); 
+  text-align: left; 
+  width: 40%;
+  /* Đặt chiều rộng của h3 bằng 40% của .contact-box. */
+  margin: 0; 
+}
+
+.contact-box p {
+  font-size: clamp(1.2rem, 2.8vw, 2rem); 
+  text-align: right; 
+  width: 100%; 
+  margin: 0; 
+}
+
+.social-box {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Animation trượt ra cho contact và social box */
+
+.contact-box {
+  opacity: 0;
+  transform: translateX(-150px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition-delay: 0.2s;
+  /* Contact box trượt sau social box */
+}
+
+/* Khi có class 'visible' (thêm bằng JavaScript khi scroll đến) */
+.social-box.visible,
+.contact-box.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ABOUT */
+.container1 {
+  width: 100%;
+  /* Rộng 100%. */
+  max-width: 1440px;
+  /* Rộng tối đa 1440px. */
+  display: flex;
+  /* Dùng Flexbox. */
+  flex-direction: column;
+  /* Xếp các con (header, content-area) theo chiều dọc. */
+  height: auto;
+  /* Chiều cao tự động. */
+  margin: 0 auto;
+  /* Căn giữa theo chiều ngang. */
+
+  margin-top: 20px;
+  /* Lề trên 20px. */
+}
+
+.header {
+  position: relative;
+  /* Đặt vị trí tương đối, làm mốc cho các phần tử con 'position: absolute'. */
+  width: 100%;
+  /* Rộng 100%. */
+  aspect-ratio: 1418/200;
+  /* Giữ tỷ lệ khung hình (rộng/cao) là 1418/200. */
+  display: flex;
+  height: min(calc(100vw * (200 / 1418)), 400px);
+}
+
+.title {
+  position: absolute;
+  /* Đặt vị trí tuyệt đối (so với .header). */
+  top: 0;
+  /* Căn lên lề trên của .header. */
+  left: 0;
+  /* Căn sang lề trái của .header. */
+  font-size: clamp(20px, 6vw, 90px);
+  /* Cỡ chữ bằng 4% chiều rộng viewport. */
+  aspect-ratio: 504/70;
+  /* Giữ tỷ lệ khung hình cho box title. */
+}
+
+.subtitle {
+  max-width: 100%;
+  /* Rộng tối đa 60% (của .header). */
+  width: 100%;
+  /* Rộng 100% (nhưng không quá 60%). */
+  position: absolute;
+  /* Vị trí tuyệt đối (so với .header). */
+  bottom: 0;
+  /* Căn xuống lề dưới. */
+  right: 0;
+  /* Căn sang lề phải. */
+  font-size: clamp(16px, 2vw, 40px);
+  /* Cỡ chữ bằng 2% chiều rộng viewport. */
+  font-weight: bolder;
+  /* Chữ cực kỳ đậm. */
+  word-wrap: break-word;
+}
+
+.about-banner {
+  width: 100%;        /* Luôn rộng bằng 100% khung chứa nó */
+  height: auto;       /* Tự động tính chiều cao để không bị méo ảnh */
+  display: block;     /* Loại bỏ khoảng trống thừa dưới ảnh */
+  object-fit: cover;  /* Giúp ảnh lấp đầy không gian nếu bạn có set chiều cao cố định */
+  grid-column: 1 / -1; /* Quan trọng: Bảo ảnh chiếm hết các cột của Grid hiện tại */
+}
+
+.content-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  width: 100%; /* Đảm bảo khung bao ngoài rộng hết cỡ */
+}
+
+.column {
+  flex: 1;
+  background-color: #d3d0c8;
+  min-height: 400px;
+  position: relative;
+  /* Quan trọng! */
+  overflow: hidden;
+  /* Ẩn phần background vượt ra ngoài */
+  transition: background-color 0.3s;
+}
+
+/* Tạo pseudo-element chứa background */
+.column:first-child::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/img1.png");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  transition: filter 1s ease, transform 0.6s ease;
+  z-index: 0;
+  /* Đảm bảo nằm dưới nội dung */
+}
+
+/* Tạo pseudo-element chứa background */
+.column:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/img2.png");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  transition: filter 1s ease, transform 0.6s ease;
+  z-index: 0;
+  /* Đảm bảo nằm dưới nội dung */
+}
+
+/* Tạo pseudo-element chứa background */
+.column:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/img3.png");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  transition: filter 1s ease, transform 0.6s ease;
+  z-index: 0;
+  /* Đảm bảo nằm dưới nội dung */
+}
+
+/* Tạo pseudo-element chứa background */
+.column:last-child::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/img4.png");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  transition: filter 1s ease, transform 0.6s ease;
+  z-index: 0;
+  /* Đảm bảo nằm dưới nội dung */
+}
+
+.column:hover::before {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+}
+
+.column:last-child {
+  border-right: none;
+  /* Xóa viền phải của cột cuối cùng (dù hiện tại không có viền nào được set). */
+}
+
+.column:hover {
+  background-color: #c5c2ba;
+  /* Đổi màu nền khi di chuột (thành màu xám đậm hơn). */
+}
+
+/* --------------------------------
+-------------------------------- */
+/* description-section */
+/* --------------------------------
+-------------------------------- */
+
+.description-section {
+  width: 100%;
+  /* Rộng 100%. */
+  margin: 0 auto;
+  /* Căn giữa. */
+  max-width: 899px;
+  /* Rộng tối đa 899px. */
+  padding-top: 100px;
+  /* Đệm trên 100px. */
+  font-size: clamp(13px, 2.5vw, 36px);
+  /* Cỡ chữ 30px. */
+  padding-bottom: 100px;
+  /* Đệm dưới 100px. */
+}
+
+/* --------------------------------
+-------------------------------- */
+/* footer--section */
+/* --------------------------------
+-------------------------------- */
+footer {
+  width: 100%;
+  /* Rộng 100%. */
+  background-color: black;
+  /* Màu nền đen. */
+  color: white;
+  /* Màu chữ trắng. */
+  padding: 50px 0 80px;
+  /* Đệm: 50px trên, 0 trái/phải, 80px dưới. */
+  margin-top: auto;
+  /* Tự động đẩy footer xuống cuối trang (nếu trang ngắn). */
+}
+
+.footer__container {
+  max-width: 1440px;
+  /* Rộng tối đa 1440px. */
+  margin: 0 auto;
+  /* Căn giữa. */
+  display: flex;
+  /* Dùng Flexbox. */
+  justify-content: space-between;
+  /* Căn 2 phần tử con (newsletter, siteinfo) ra 2 đầu, khoảng cách ở giữa. */
+  gap: clamp(50px, 25vw, 300px);
+  /* Khoảng cách linh hoạt: nhỏ nhất 50px, lớn nhất 300px, co dãn theo 25% viewport. */
+  padding: 0 40px;
+  /* Đệm 0 trên/dưới, 40px trái/phải. */
+}
+
+.footer__newsletter {
+  display: flex;
+  /* Dùng Flexbox. */
+  flex-direction: column;
+  /* Xếp các con (title, form, a) theo chiều dọc. */
+  gap: 20px;
+  /* Khoảng cách 20px giữa các con. */
+  flex: 1;
+  /* (flex-grow: 1) Co dãn để chiếm không gian. */
+  padding-left: 6px;
+  /* Đệm trái 6px. */
+  justify-content: flex-start;
+  /* Căn nội dung lên trên (theo trục dọc). */
+}
+
+.footer__newsletter a {
+  color: gray;
+  /* Màu chữ xám cho link. */
+}
+
+.newsletter__title {
+  font-size: 1.75rem;
+  /* Cỡ chữ 1.75rem. */
+  line-height: 1.3;
+  /* Chiều cao dòng bằng 1.3 lần cỡ chữ. */
+  padding-top: 70px;
+  /* Đệm trên 70px. */
+}
+
+.newsletter__formbox {
+  display: flex;
+  /* Dùng Flexbox để đặt input và button cạnh nhau. */
+}
+
+.newsletter__formbox input {
+  padding: 18px 20px;
+  /* Đệm 18px (trên/dưới), 20px (trái/phải) bên trong input. */
+  border-radius: 16px 0 0 16px;
+  /* Bo góc trên trái và dưới trái 16px. */
+  border: none;
+  /* Xóa viền. */
+  outline: none;
+  /* Xóa viền xanh (outline) khi click vào input. */
+  font-size: 1.3em;
+  /* Cỡ chữ 1.3 lần chữ cơ bản. */
+  font-weight: bolder;
+  /* Chữ cực đậm. */
+  flex: 1;
+  /* (flex-grow: 1) Cho phép input co dãn lấp đầy không gian. */
+}
+
+.newsletter__formbox button {
+  border-radius: 0 16px 16px 0;
+  /* Bo góc trên phải và dưới phải 16px. */
+  padding: 18px 20px;
+  /* Đệm bên trong button. */
+  border-left: none;
+  /* Xóa viền trái (để liền với input). */
+  font-size: 1.3em;
+  /* Cỡ chữ. */
+  font-weight: bold;
+  /* Chữ đậm. */
+  background-color: gray;
+  /* Màu nền xám. */
+  color: whitesmoke;
+  /* Màu chữ trắng mờ. */
+  border: none;
+  /* Xóa viền. */
+  outline: none;
+  /* Xóa viền focus. */
+  cursor: pointer;
+  /* Đổi con trỏ thành hình bàn tay khi di chuột. */
+  white-space: nowrap;
+  /* Ngăn chữ trong button bị xuống hàng. */
+}
+
+.newsletter__formbox button:hover {
+  transition: background-color 0.7s ease;
+  /* Hiệu ứng chuyển màu mượt 0.7s. */
+  background-color: rgb(0, 102, 255);
+  /* Đổi màu nền khi di chuột. */
+}
+
+/* (Selector này có vẻ sai, .siteinfo__formbox không tồn tại) */
+.siteinfo__formbox input::placeholder {
+  color: gray;
+  /* Đặt màu xám cho chữ placeholder (chữ mờ) */
+}
+
+.siteinfo__right {
+  display: flex;
+  /* Dùng Flexbox. */
+  flex-direction: column;
+  /* Xếp các con theo chiều dọc. */
+  flex-basis: 50%;
+  /* Đặt kích thước cơ bản là 50% chiều rộng của .footer__container. */
+  gap: 30px;
+  /* Khoảng cách 30px giữa các con. */
+}
+
+.siteinfo__right a {
+  color: white;
+  /* Màu chữ trắng cho link. */
+  text-decoration: none;
+  /* Bỏ gạch chân link. */
+}
+
+.icon__container {
+  display: flex;
+  /* Dùng Flexbox. */
+  gap: 40px;
+  /* Khoảng cách 40px giữa các icon. */
+  padding-top: 60px;
+  /* Đệm trên 60px. */
+  justify-content: flex-start;
+  /* Căn các icon sang trái. */
+  flex-direction: row;
+  /* Xếp icon theo hàng ngang. */
+  flex-wrap: wrap;
+  /* Cho phép icon rớt hàng. */
+}
+
+/* Style cho thẻ <i> (icon) khi thẻ <a> cha được hover */
+a:hover i {
+  color: gray;
+  /* Đổi màu icon thành xám. */
+  transition: color 0.3s ease;
+  /* Hiệu ứng chuyển màu mượt 0.3s. */
+}
+
+.fa-brands {
+  /* (Font Awesome Brands) */
+  font-size: 45px;
+  /* Cỡ chữ (kích thước icon) 45px. */
+  height: 45px;
+  /* Chiều cao 45px. */
+  cursor: pointer;
+  /* Con trỏ hình bàn tay. */
+}
+
+.contact {
+  display: flex;
+  /* Dùng Flexbox. */
+  justify-content: flex-start;
+  /* Căn sang trái. */
+  gap: 10px;
+  /* Khoảng cách 10px (giữa icon và chữ). */
+  font-weight: bolder;
+  /* Chữ cực đậm. */
+}
+
+.email {
+  display: flex;
+  /* Dùng Flexbox. */
+  justify-content: flex-start;
+  /* Căn sang trái. */
+  gap: 10px;
+  /* Khoảng cách 10px. */
+  font-weight: bolder;
+  /* Chữ cực đậm. */
+}
+
+.end {
+  margin-bottom: 10px;
+  /* Lề dưới 10px. */
+}
+
+.option {
+  display: flex;
+  /* Dùng Flexbox. */
+  justify-content: flex-start;
+  /* Căn trái. */
+  gap: 30px;
+  /* Khoảng cách 30px giữa các option. */
+  font-weight: bolder;
+  /* Chữ cực đậm. */
+  cursor: pointer;
+  /* Con trỏ hình bàn tay. */
+  margin: 0 0 0 -130px;
+  /* Lề: 0 trên/phải/dưới, -130px bên trái (kéo sang trái). */
+  flex-direction: row;
+  /* Xếp theo hàng ngang. */
+}
+
+.options__container li {
+  list-style: none;
+  /* Bỏ dấu chấm đầu dòng của <li>. */
+}
+
+.options__container {
+  margin-left: 50px;
+  /* Lề trái 50px. */
+}
+/* || MEDIA QUERIES */
+
+/* Áp dụng khi màn hình từ 1200px trở xuống */
+@media (max-width: 1200px) {
+  .maintopic__container {
+    display: flex;
+    flex-direction: column;
+    /* Chuyển .maintopic__container thành cột. */
+  }
+
+  .footer__newsletter {
+    flex: 1;
+    min-width: 300px;
+    /* Chiều rộng tối thiểu 300px (giữ form không bị bóp). */
+  }
+
+  .option {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: -50px;
+  }
+
+  .popular__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .grid1__content1,
+  .grid1__content2,
+  .lifestyle,
+  .politics {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .grid1__content1-img,
+  .grid1__content2-img,
+  .lifestyle__img,
+  .politics__img {
+    width: 50%;
+  }
+
+
+  .business__news-img {
+    padding-top: 10px;
+  }
+
+  .business__news-description {
+    padding-bottom: 20px;
+  }
+
+  .bussiness__news {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .business__news-description {
+    margin: 0 auto;
+  }
+
+  .grid__box1,
+  .grid__box2 {
+    border: none;
+  }
+
+  .lifestyle {
+    padding-top: 15px;
+  }
+
+  .topic__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news__img {
+    width: 20%;
+  }
+
+  .threenews__img {
+    width: 40%;
+    aspect-ratio: 100/50;
+  }
+
+  .description-section {
+    padding: 15px 10px;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .FAQ-section {
+    gap: 0;
+    /* Đảm bảo khoảng cách vẫn là 0 (khi các box rớt hàng). Và bỏ padding ở max width này trở đi */
+    padding: 0;
+  }
+
+  .contact-box {
+    margin-top: 0;
+    /* Gỡ bỏ lề trên 54px khi .contact-box rớt xuống hàng (wrap).  
+    Khi này coi trên thiết bị nhỏ hơn thì không cần hiệu ứng asymetry nữa vì nhìn sẽ rối mắt*/
+
+  }
+}
+ 
+@media (max-width: 600px) {
+  .contact-box {
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left; 
+    gap: 15px; 
+  }
+
+  .contact-box h3,
+  .contact-box p {
+    width: 100%; 
+    text-align: left; 
+  }
+}
+
+/* Áp dụng khi màn hình từ 768px trở xuống (tablet) */
+@media (max-width: 768px) {
+  .FAQ-section {
+    flex-wrap: wrap;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    aspect-ratio: unset;
+    gap: 2vw;
+    margin-left: 0;
+    padding: 5%;
+  }
+
+  .title {
+    position: static;
+    font-size: clamp(16px, 5vw, 40px);
+    aspect-ratio: unset;
+    flex-shrink: 0;
+  }
+
+  .subtitle {
+    position: static;
+    max-width: 100%;
+    right: auto;
+    bottom: auto;
+    font-size: clamp(11px, 2vw, 28px);
+  }
+
+  .boxlowerleft {
+    display: flex;
+    flex-direction: column;
+    /* Chuyển .boxlowerleft thành cột. */
+  }
+
+  .footer__container {
+    flex-direction: column;
+    /* Chuyển 2 cột của footer thành 1 cột (xếp chồng lên nhau). */
+    gap: 40px;
+  }
+
+  .newsletter__formbox input {
+    width: 300px;
+    max-width: 100%;
+    flex: none;
+  }
+
+  .AI__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AI__left {
+    border: none
+  }
+
+  .AI__news--1 {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .content-area {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+  }
+
+  .column {
+    min-height: 200px; 
+    aspect-ratio: 9 / 10;
+  }
+
+  .description-section {
+    padding: 25px 15px;
+  }
+}
+
+/* Áp dụng khi màn hình từ 500px trở xuống (mobile) */
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .newsletter__formbox {
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch; 
+    gap: 10px; 
+  }
+
+  .newsletter__formbox input {
+    width: 100%; 
+    border-radius: 16px; 
+    padding: 14px 16px; 
+    font-size: 1rem; 
+  }
+
+  .newsletter__formbox button {
+    width: 100%; 
+    border-radius: 16px; 
+    padding: 14px 16px; 
+    font-size: 1rem; 
+    white-space: normal; 
+  }
+
+  .content-area {
+    grid-template-columns: 1fr;
+  }
+
+}

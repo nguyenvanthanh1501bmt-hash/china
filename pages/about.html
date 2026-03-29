@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanju</title>
+  <link rel="stylesheet" href="../assets/css/general.css">
+  <link rel="stylesheet" href="../assets/css/about.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="/assets/img/logoicon-Photoroom.png">
+</head>
+
+<body>
+  <!-- Overlay cho đăng nhập đăng xuất và pop up -->
+  <div id="page-overlay"></div>
+  <div id="pop-up-overlay__placeholder"></div>
+
+  <!-- Nội dung chính -->
+  <div id="mainContent">
+    <header>
+      <div id="navbar__placeholder"></div>
+      <div id="mobile-menu__placeholder"></div>
+    </header>
+
+    <main>
+      <div class="container1">
+        <div class="header">
+          <h1 class="title">Về KanJu</h1>
+          <!-- <p class="subtitle">
+             Đây là trang web miễn phí giúp nâng cao năng lực giao tiếp ở trình độ trung cấp.
+          </p> -->
+        </div>
+
+        <div class="content-area">
+          <img src="../assets/img/logo-Photoroom.png" alt="About Banner" class="about-banner">
+          <!-- Bạn có thể dùng JS để đổ hình ảnh hoặc nội dung vào đây -->
+          <!-- <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div> -->
+        </div>
+      </div>
+
+      <!-- <div class="FAQ-section">
+        <div class="social-box">
+          <h3 class="social-title">THEO DÕI CHÚNG TÔI</h3>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="contact-box">
+          <h3 class="social-title">Kết nối với đội ngũ giáo dục</h3>
+          <p class="contact-title">
+            Bạn có thắc mắc về lộ trình học? <span class="contact-link">Liên hệ ngay</span> để được hỗ trợ giải đáp.
+          </p>
+        </div>
+      </div> -->
+
+      <div class="description-section">
+        <p class="description-text">
+          <strong>KanJu</strong> là một dự án giáo dục số được phát triển bởi nhóm sinh viên HCMUE, với mục tiêu xóa bỏ rào cản ngôn ngữ và mang tiếng Trung đến gần hơn với mọi người thông qua công nghệ web hiện đại.
+        </p>
+        <br><br>
+        <p class="description-text">
+          Lấy cảm hứng từ thói quen xem phim giải trí, KanJu xây dựng phương pháp học tập tự nhiên, giúp người học tiếp cận tiếng Trung một cách sinh động, dễ hiểu và không nhàm chán. Thay vì học theo cách truyền thống, người dùng có thể vừa xem phim, vừa học từ vựng, ngữ pháp và cách phát âm trong ngữ cảnh thực tế.
+        </p>
+        <br><br>
+        <!-- <p class="description-text">
+          Thay vì những giáo trình khô khan, nền tảng của chúng tôi kết hợp giữa **Video trực quan**, **Hệ thống từ vựng thông minh** và **Trải nghiệm đọc hiểu tương tác**. Chúng tôi không chỉ dạy ngôn ngữ, chúng tôi truyền cảm hứng để bạn khám phá một nền văn hóa mới.
+        </p> -->
+      </div>
+    </main>
+
+    <div id="footer__placeholder"></div>
+  </div>
+
+  <script type="module" src="../components/Navbar/Navbar.js"></script>
+  <script src="../assets/js/login.js"></script>
+  <script src="../components/PopUpOverlay/PopUpOverlay.js"></script>
+  <script type="module" src="../components/MobileMenu/MobileMenu.js"></script>
+  <script type="module" src="../components/Footer/Footer.js"></script>
+  <script src="../assets/js/overlay.js"></script>
+  <script src="../assets/js/faq-animation.js"></script>
+  <script src="../assets/js/header.js" type="module"></script>
+</body>
+
+</html>
