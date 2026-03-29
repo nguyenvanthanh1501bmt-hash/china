@@ -4,28 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../assets/css/general.css">
-  <link rel="stylesheet" href="../assets/css/index.css">
-  <!-- <link rel="stylesheet" href="../assets/css/login.css"> -->
+  
+  <!-- CSS: Đã bỏ ../ -->
+  <link rel="stylesheet" href="assets/css/general.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <title>KanJu</title>
-  <link rel="icon" type="image/x-icon" href="/assets/img/logoicon-Photoroom.png">
+  
+  <!-- Icon: Đã bỏ / ở đầu để đồng bộ đường dẫn tương đối -->
+  <link rel="icon" type="image/x-icon" href="assets/img/logoicon-Photoroom.png">
 </head>
 
 <body>
   <div id="page-overlay">
-  <div class="loading-wrapper">
-    <div class="loading-text">KanJu</div>
-    <div class="loading-subtext">Học tiếng Trung</div>
+    <div class="loading-wrapper">
+      <div class="loading-text">KanJu</div>
+      <div class="loading-subtext">Học tiếng Trung</div>
+    </div>
   </div>
-</div>
-  <!-- ======================= -->
-  <!-- sign-up, sign in -->
-  <!-- ======================= -->
+
   <!-- Pop-up Overlay -->
   <div id="pop-up-overlay__placeholder"></div>
   <div id="mobile-menu__placeholder"></div>
@@ -35,7 +37,6 @@
       <div id="navbar__placeholder"></div>
     </header>
     <main>
-      <!-- <div id="banner__placeholder"></div> -->
       <!-- MAIN TOPIC -->
       <div class="maintopic__container">
         <div class="left">
@@ -56,7 +57,6 @@
             </div>
             <div class="right1">
               <div class="threenews"></div>
-
             </div>
           </div>
         </div>
@@ -93,9 +93,9 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
+      
       <!-- TOPICS -->
       <div class="topic__container">
         <div class="topic topic1">
@@ -123,6 +123,7 @@
           </div>
         </div>
       </div>
+
       <!-- AI TOPIC -->
       <div class="AI__container">
         <div class="AI__left">
@@ -175,6 +176,7 @@
           </div>
         </div>
       </div>
+
       <!-- POPULAR -->
       <div class="popular__container">
         <div class="grid__box1">
@@ -241,17 +243,16 @@
     <div id="footer__placeholder"></div>
   </div>
 
-  <!-- Render dung thu tu -->
-
-  <script type="module" src="../components/Navbar/Navbar.js"></script>
-  <script src="../assets/js/login.js"></script>
-  <script src="../components/PopUpOverlay/PopUpOverlay.js"></script>
-  <script type="module" src="../components/MobileMenu/MobileMenu.js"></script>
-  <script type="module" src="../components/Footer/Footer.js"></script>
-  <script src="../assets/js/overlay.js"></script>
-  <script src="../assets/js/index.js" type="module"></script>
-   <script type="module" src="../components/Banner/Banner.js"></script>
-  <script src="../assets/js/header.js" type="module"></script>
+  <!-- SCRIPTS: Đã bỏ ../ -->
+  <script type="module" src="components/Navbar/Navbar.js"></script>
+  <script src="assets/js/login.js"></script>
+  <script src="components/PopUpOverlay/PopUpOverlay.js"></script>
+  <script type="module" src="components/MobileMenu/MobileMenu.js"></script>
+  <script type="module" src="components/Footer/Footer.js"></script>
+  <script src="assets/js/overlay.js"></script>
+  <script src="assets/js/index.js" type="module"></script>
+  <script type="module" src="components/Banner/Banner.js"></script>
+  <script src="assets/js/header.js" type="module"></script>
 </body>
 
 </html>

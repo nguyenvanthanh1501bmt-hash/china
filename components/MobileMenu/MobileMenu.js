@@ -29,16 +29,16 @@ function createMobileMenu() {
         </button>
       </div>
       <ul class="mobile-nav-links">
-        <li><a href="index.html" class="active">Trang chủ</a></li>
-        <li><a href="./category.html?type=Latest">Văn hóa-Nghệ thuật</a></li>
-        <li><a href="./category.html?type=Business News">Ẩm thực</a></li>
-        <li><a href="./category.html?type=Money and Markets">Đời sống</a></li>
-        <li><a href="./category.html?type=Tech and Innovation">Sức khỏe</a></li>
-        <li><a href="./category.html?type=A.I.">Khoa học</a></li>
-        <li><a href="./category.html?type=Lifestyl">Tình cảm-Gia đình</a></li>
-        <li><a href="./category.html?type=Politics">Công việc</a></li>
-        <li><a href="./category.html?type=Email">Học đường</a></li>
-        <li><a href="./category.html?type=Podcast">Giải trí</a></li>
+        <li><a href="../../index.html" class="active">Trang chủ</a></li>
+        <li><a href="../../pages/category.html?type=Latest">Văn hóa-Nghệ thuật</a></li>
+        <li><a href="../../pages/category.html?type=Business News">Ẩm thực</a></li>
+        <li><a href="../../pages/category.html?type=Money and Markets">Đời sống</a></li>
+        <li><a href="../../pages/category.html?type=Tech and Innovation">Sức khỏe</a></li>
+        <li><a href="../../pages/category.html?type=A.I.">Khoa học</a></li>
+        <li><a href="../../pages/category.html?type=Lifestyle">Tình cảm-Gia đình</a></li>
+        <li><a href="../../pages/category.html?type=Politics">Công việc</a></li>
+        <li><a href="../../pages/category.html?type=Email">Học đường</a></li>
+        <li><a href="../../pages/category.html?type=Podcast">Giải trí</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <div class="mobile-menu-footer">

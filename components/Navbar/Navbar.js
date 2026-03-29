@@ -16,7 +16,7 @@ function createNavbar() {
         <div class="nav__top">
             <div class="nav-item-wrapper">
                 <div class="nav__search">
-                    <a href="search.html">
+                    <a href="../../pages/search.html">
                         Tìm kiếm
                     </a>
                 </div>
@@ -24,14 +24,14 @@ function createNavbar() {
             
             <div class="nav-item-wrapper">
                 <div class="nav__logo">
-                    <a href="index.html">
+                    <a href="../../index.html">
                         KanJu
                     </a>
                 </div>
             </div>
             <div class="nav-item-wrapper">
                 <div class="nav__about">
-                    <a href="about.html">
+                    <a href="../../pages/about.html">
                         Giới thiệu
                     </a>
                 </div>
@@ -48,16 +48,16 @@ function createNavbar() {
         </div>
         <div class="nav__bottom">
             <ul class="nav__categories">
-                <li><a href="index.html">Trang chủ</a></li>
-                <li><a href="./category.html?type=Latest">Văn hóa-Nghệ thuật</a></li>
-                <li><a href="./category.html?type=Business News">Ẩm thực</a></li>
-                <li><a href="./category.html?type=Money and Markets">Đời sống</a></li>
-                <li><a href="./category.html?type=Tech and Innovation">Sức khỏe</a></li>
-                <li><a href="./category.html?type=A.I.">Khoa học</a></li>
-                <li><a href="./category.html?type=Lifestyle">Tình cảm-Gia đình</a></li>
-                <li><a href="./category.html?type=Politics">Công việc</a></li>
-                <li><a href="./category.html?type=Email">Học đường</a></li>
-                <li><a href="./category.html?type=Podcast">Giải trí</a></li>
+                <li><a href="../../index.html">Trang chủ</a></li>
+                <li><a href="../../pages/category.html?type=Latest">Văn hóa-Nghệ thuật</a></li>
+                <li><a href="../../pages/category.html?type=Business News">Ẩm thực</a></li>
+                <li><a href="../../pages/category.html?type=Money and Markets">Đời sống</a></li>
+                <li><a href="../../pages/category.html?type=Tech and Innovation">Sức khỏe</a></li>
+                <li><a href="../../pages/category.html?type=A.I.">Khoa học</a></li>
+                <li><a href="../../pages/category.html?type=Lifestyle">Tình cảm-Gia đình</a></li>
+                <li><a href="../../pages/category.html?type=Politics">Công việc</a></li>
+                <li><a href="../../pages/category.html?type=Email">Học đường</a></li>
+                <li><a href="../../pages/category.html?type=Podcast">Giải trí</a></li>
             </ul>
         </div>
     </nav>
