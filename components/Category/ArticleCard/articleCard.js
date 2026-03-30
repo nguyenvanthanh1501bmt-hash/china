@@ -13,8 +13,17 @@ function truncateSimple(str, n = 30) {
 export function createArticleCard(article) {
   injectStyles();
 
-  const videoUrl = article.video || "https://www.youtube.com/embed/ghzsMFvUMgs";
-  const imageHTML = `<div class="post-card__video"><iframe src="${videoUrl}" title="${article.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:100%;"></iframe></div>`;
+  // Lấy thumbnail thật từ Drive
+  const driveThumb = (() => {
+    if (!article.video) return null;
+    const m = article.video.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+    return m ? `https://drive.google.com/thumbnail?id=${m[1]}&sz=w400` : null;
+  })();
+  const thumbSrc = driveThumb || article.img || '';
+  const errorFallback = article.video
+    ? `this.outerHTML='<iframe src=\\'${article.video}\\' frameborder=\\'0\\' style=\\'width:100%;height:100%;\\'></iframe>'`
+    : '';
+  const imageHTML = `<div class="post-card__video"><img src="${thumbSrc}" alt="${article.description}" style="width:100%;height:100%;object-fit:cover;" onerror="${errorFallback}" /></div>`;
 
   return `
   <article class="article-card" data-id="${

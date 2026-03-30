@@ -9,8 +9,17 @@ function injectStyle() {
 
 export function createRelatedCard(article) {
   injectStyle();
-  const videoUrl = article.video || "https://www.youtube.com/embed/ghzsMFvUMgs";
-  const media = `<div class="related-card__media"><iframe src="${videoUrl}" title="${article.description}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:100%;"></iframe></div>`;
+  // Lấy thumbnail thật từ Drive
+  const driveThumb = (() => {
+    if (!article.video) return null;
+    const m = article.video.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+    return m ? `https://drive.google.com/thumbnail?id=${m[1]}&sz=w400` : null;
+  })();
+  const thumbSrc = driveThumb || article.img || '';
+  const fallbackIframe = article.video
+    ? `this.outerHTML='<iframe src=\\'${article.video}\\' frameborder=\\'0\\' style=\\'width:100%;height:100%;\\'></iframe>'`
+    : '';
+  const media = `<div class="related-card__media"><img src="${thumbSrc}" alt="${article.description}" style="width:100%;height:100%;object-fit:cover;" onerror="${fallbackIframe}" /></div>`;
   const category = article.type
     ? article.type
     : article.type1

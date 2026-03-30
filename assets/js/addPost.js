@@ -34,7 +34,7 @@ function initializeAddPostPage() {
     });
 
     // Xóa vocab
-    vocabContainer.addEventListener('click', e => {
+    vocabContainer?.addEventListener('click', e => {
         if (e.target.classList.contains('btn-remove')) {
             e.target.parentElement.remove();
         }

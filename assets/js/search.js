@@ -1,7 +1,15 @@
-﻿// Import newsData
+// Import newsData
 import { newsData } from "../data/newsData.js";
 // toggleMenu is available globally from header.js
 import { toggleMenu } from "./header.js";
+
+// Helper: lấy thumbnail thật từ Google Drive
+function getDriveThumb(videoUrl, size = 'w400') {
+  if (!videoUrl) return null;
+  const m = videoUrl.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+  return m ? `https://drive.google.com/thumbnail?id=${m[1]}&sz=${size}` : null;
+}
+
 // Hàm chuyển đổi dữ liệu từ newsData sang định dạng chuẩn
 function convertNewsDataToArticles() {
     const articles = [];
@@ -16,7 +24,7 @@ function convertNewsDataToArticles() {
         category: category,
         date: new Date(),
         readTime: '5 min',
-        image: resolveImagePath(item.image),
+        image: getDriveThumb(item.video) || resolveImagePath(item.image),
         video: item.video || '',       // <-- thêm dòng này
         type: type,
         url: `post.html?id=${item.id}`
@@ -339,7 +347,29 @@ function renderArticles(articles) {
         const mediaDiv = document.createElement('div');
         mediaDiv.className = 'article-media';
 
-        if (article.video && article.video.trim() !== '') {
+        if (article.image && article.image.trim() !== '' && article.image !== 'https://via.placeholder.com/400x250/4a90e2/ffffff?text=News') {
+            const escapedImageUrl = escapeHtml(article.image);
+            mediaDiv.style.backgroundImage = `url('${escapedImageUrl}')`;
+            
+            // Add a hidden img to test load, if it fails, fallback to iframe
+            const fallbackImg = document.createElement('img');
+            fallbackImg.src = escapedImageUrl;
+            fallbackImg.style.display = 'none';
+            fallbackImg.onerror = function() {
+                 if (article.video && article.video.trim() !== '') {
+                     mediaDiv.style.backgroundImage = 'none';
+                     const iframe = document.createElement('iframe');
+                     iframe.width = '100%';
+                     iframe.height = '200';
+                     iframe.src = article.video;
+                     iframe.frameBorder = '0';
+                     mediaDiv.innerHTML = '';
+                     mediaDiv.appendChild(iframe);
+                 }
+            };
+            mediaDiv.appendChild(fallbackImg);
+
+        } else if (article.video && article.video.trim() !== '') {
             // Nếu có video → render iframe
             const iframe = document.createElement('iframe');
             iframe.width = '100%';

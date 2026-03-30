@@ -1,6 +1,12 @@
 import { fullNews } from "./addPost.js";
 
-// ---------------------------
+// Helper: thumbnail thật từ Google Drive
+function getDriveThumb(videoUrl) {
+  if (!videoUrl) return null;
+  const m = videoUrl.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+  return m ? `https://drive.google.com/thumbnail?id=${m[1]}&sz=w400` : null;
+}
+
 // Lấy ID từ URL parameter
 // ---------------------------
 function getPostIdFromURL() {
@@ -92,13 +98,15 @@ function renderContentWrapper() {
     .map(
       (article) => `
     <div class="article-card" data-id="${article.id}">
-      ${
-        article.video && article.video.trim() !== ""
-          ? `<div class="article-video"><iframe src="${article.video}" title="Up next video" frameborder="0"
-             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-             allowfullscreen></iframe></div>`
-          : `<img src="${article.img}" alt="${article.description}" />`
-      }
+      ${(() => {
+        const thumb = getDriveThumb(article.video) || article.img || '';
+        const fallback = article.video
+          ? `this.outerHTML='<iframe src=\'${article.video}\' frameborder=\'0\' allow=\'autoplay\' allowfullscreen></iframe>'`
+          : '';
+        return thumb
+          ? `<img src="${thumb}" alt="${article.description}" onerror="${fallback}" style="width:100%;height:200px;object-fit:cover;border-radius:8px;margin-bottom:10px;" />`
+          : '';
+      })()}
       <h3 class="article-title">${article.description}</h3>
       <p class="article-meta">2 phút để đọc</p>
     </div>`

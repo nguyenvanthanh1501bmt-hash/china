@@ -1,16 +1,36 @@
 import { newsData } from "../data/newsData.js";
 import { toggleMenu } from "./header.js";
 
-// 1. Helper render media: video iframe nếu có, else ảnh
-function renderMedia(item, className = '') {
-  if (item.video) {
-    return `<div class="${className}" style="width:100%;height:0;padding-bottom:56.25%;position:relative;overflow:hidden;border-radius:12px;"><iframe src="${item.video}" title="${item.title || 'Video'}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;"></iframe></div>`;
+// Helper: Lấy thumbnail thật từ Google Drive
+function getDriveThumbnail(videoUrl) {
+  if (!videoUrl) return null;
+  const match = videoUrl.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+  if (match && match[1]) {
+    return `https://drive.google.com/thumbnail?id=${match[1]}&sz=w600`;
   }
-  if (item.image) {
-    return `<div class="${className}"><img src="../assets/${item.image}" alt="${item.title || 'Image'}"></div>`;
+  return null;
+}
+
+// 1. Helper render media: chỉ trả về thẻ <img> hoặc <iframe>
+// CSS của các container bên ngoài (index.css) đã xác định kích thước rồi
+function renderMedia(item, className = '') {
+  const thumb = getDriveThumbnail(item.video);
+  // Ưu tiên thumbnail Drive > local image
+  const src = thumb || (item.image ? `../assets/${item.image}` : null);
+
+  if (src) {
+    // Fallback về iframe nếu ảnh lỗi
+    const fallback = item.video
+      ? `this.style.display='none';this.parentElement.innerHTML='<iframe src=\\'${item.video}\\' frameborder=\\'0\\' style=\\'width:100%;height:100%;\\' allowfullscreen></iframe>'`
+      : '';
+    return `<img src="${src}" alt="${item.title || ''}" style="width:100%;height:100%;object-fit:cover;border-radius:12px;display:block;" onerror="${fallback}">`;
+  }
+  if (item.video) {
+    return `<iframe src="${item.video}" title="${item.title || 'Video'}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:100%;display:block;"></iframe>`;
   }
   return '';
 }
+
 
 // 1. Render Featured News
 function renderFeatured() {
