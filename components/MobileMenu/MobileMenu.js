@@ -47,12 +47,12 @@ function createMobileMenu() {
           class="mobile-menu-footer-item"
           onclick="openPopup('login');"
         >
-          Login
+          Đăng nhập
         </div>
-        <div class="mobile-menu-footer-item">Languages</div>
-        <div class="mobile-menu-footer-item js-search">Search</div>
-        <div class="mobile-menu-footer-item">Newsletter</div>
-        <div class="mobile-menu-footer-item js-about">About</div>
+        <div class="mobile-menu-footer-item">Ngôn ngữ</div>
+        <div class="mobile-menu-footer-item js-search">Tìm kiếm</div>
+        
+        <div class="mobile-menu-footer-item js-about">Kanju</div>
       </div>
     </div>
     `;

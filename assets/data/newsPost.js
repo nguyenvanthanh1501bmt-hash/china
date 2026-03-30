@@ -1,7 +1,7 @@
 export const newsPort = [
     {
     id: 1,
-    description: "陪你一起好好吃饭 - CÙNG ANH ĂN MỘT BỮA NGON",
+    description: "陪你一起好好吃饭 - Cùng anh ăn một bữa ngon",
     type: 'BUSINESS NEWS',
     type1: 'Business News',
 //    type2: 'Latest',
@@ -19,13 +19,13 @@ export const newsPort = [
         { word: "前槽肉 /qián cáo ròu/ (名)", meaning: "thịt nạc vai" },
         { word: "淀粉 /diàn fěn/ (名)", meaning: "tinh bột, bột năng" },
         { word: "料酒 /liào jiǔ/ (名)", meaning: "rượu nấu ăn" },
-        //{ word: "甜面酱 /tián miàn jiàng/ (名)", meaning: "tương ngọt" },
-        //{ word: "豆瓣酱 /dòu bàn jiàng/ (名)", meaning: "tương đậu cay" },
+        { word: "甜面酱 /tián miàn jiàng/ (名)", meaning: "tương ngọt" },
+        { word: "豆瓣酱 /dòu bàn jiàng/ (名)", meaning: "tương đậu cay" },
         { word: "生抽 /shēng chōu/ (名)", meaning: "nước tương nhạt" },
-        //{ word: "蚝油 /háo yóu/ (名)", meaning: "dầu hào" },
+        { word: "蚝油 /háo yóu/ (名)", meaning: "dầu hào" },
         { word: "花椒油 /huā jiāo yóu/ (名)", meaning: "dầu hoa tiêu" },
         { word: "浇头 /jiāo tóu/ (名)", meaning: "đồ ăn kèm chan lên mì/cơm" },
-        //{ word: "浓稠 /nóng chóu/ (形)", meaning: "sánh đặc" },
+        { word: "浓稠 /nóng chóu/ (形)", meaning: "sánh đặc" },
         { word: "新鲜出炉 /xīn xiān chū lú/", meaning: "vừa mới làm xong, còn nóng hổi" }
     ],
 
@@ -101,217 +101,217 @@ Có thể cùng nhau tận hưởng những khoảnh khắc giản dị, thảnh
         imgCaption: "Top airline rewards programs according to point.me",
         video: "https://drive.google.com/file/d/1HptN7dXistS15kS836AfLwp4nQHEQZ0e/preview",
         vocabulary: [
-            //{ word: "欺负 /qīfu/ (动)", meaning: "bắt nạt" },
-            //{ word: "说法 /shuōfǎ/ (名)", meaning: "lời giải thích, sự công bằng" },
+            { word: "欺负 /qīfu/ (动)", meaning: "bắt nạt" },
+            { word: "说法 /shuōfǎ/ (名)", meaning: "lời giải thích, sự công bằng" },
             { word: "生事 /shēngshì/ (动)", meaning: "gây chuyện" },
-            //{ word: "书记 /shūjì/ (名)", meaning: "bí thư" },
+            { word: "书记 /shūjì/ (名)", meaning: "bí thư" },
             { word: "闹喜 /nàoxǐ/ (动)", meaning: "quậy đám cưới (phong tục)" },
             { word: "耍流氓 /shuǎ liúmáng/ (动)", meaning: "giở trò đồi bại, lưu manh" },
-            //{ word: "吃亏 /chīkuī/ (动)", meaning: "chịu thiệt" },
+            { word: "吃亏 /chīkuī/ (动)", meaning: "chịu thiệt" },
             { word: "扯平 /chěpíng/ (动)", meaning: "hòa, huề" },
             { word: "欺人太甚 /qī rén tài shèn/ (成语)", meaning: "quá đáng, ức hiếp quá mức" },
             { word: "猥亵 /wěixiè/ (动)", meaning: "xâm hại, sàm sỡ" },
             { word: "赔不是 /péibúshi/ (动)", meaning: "xin lỗi" },
-            //{ word: "认罚 /rènfá/ (动)", meaning: "chấp nhận bị phạt" },
-            //{ word: "卫生院 /wèishēngyuàn/ (名)", meaning: "trạm y tế" },
+            { word: "认罚 /rènfá/ (动)", meaning: "chấp nhận bị phạt" },
+            { word: "卫生院 /wèishēngyuàn/ (名)", meaning: "trạm y tế" },
             { word: "闯祸 /chuǎnghuò/ (动)", meaning: "gây họa" }
         ],
         content: `<p>
 妹<br>
-Em gái<br>
+Em gái<br><br>
 先跟这儿歇一会儿<br>
-Em nghỉ tạm ở đây một lát đi<br>
+Em nghỉ tạm ở đây một lát đi<br><br>
 姐去跟 them 说说去<br>
-Để chị đi nói chuyện với họ<br>
+Để chị đi nói chuyện với họ<br><br>
 这事姐跟他们没完<br>
-Chuyện này chị không để yên đâu<br>
+Chuyện này chị không để yên đâu<br><br>
 他们这么欺负我妹<br>
-Họ dám bắt nạt em gái chị như vậy<br>
+Họ dám bắt nạt em gái chị như vậy<br><br>
 这事不能就这么算了<br>
-Chuyện này không thể bỏ qua như vậy được<br>
+Chuyện này không thể bỏ qua như vậy được<br><br>
 必须得给我一个说法<br>
-Nhất định phải cho chị một lời giải thích<br>
+Nhất định phải cho chị một lời giải thích<br><br>
 少说两句好不好<br>
-Bớt nói lại vài câu được không<br>
+Bớt nói lại vài câu được không<br><br>
 咋我还不能说话了是吗<br>
-Sao, giờ em không được nói chuyện luôn à<br>
+Sao, giờ em không được nói chuyện luôn à<br><br>
 我跟你说我妹是学法律的<br>
-Em nói cho anh biết em gái em học luật<br>
+Em nói cho anh biết em gái em học luật<br><br>
 懂法可以告他<br>
-Nó hiểu luật, hoàn toàn có thể kiện hắn<br>
+Nó hiểu luật, hoàn toàn có thể kiện hắn<br><br>
 你再别再给我们生事了<br>
-Cô đừng gây thêm chuyện cho nhà này nữa<br>
+Cô đừng gây thêm chuyện cho nhà này nữa<br><br>
 你知道你刚才砸的是谁吗<br>
-Cô có biết vừa rồi cô đánh ai không<br>
+Cô có biết vừa rồi cô đánh ai không<br><br>
 传家<br>
-Truyền Gia<br>
+Truyền Gia<br><br>
 那是万书记的儿子<br>
-Đó là con trai của bí thư Vạn<br>
+Đó là con trai của bí thư Vạn<br><br>
 你 你可给我们王家惹下大麻烦了你<br>
-Cô… cô gây rắc rối lớn cho nhà họ Vương rồi<br>
+Cô… cô gây rắc rối lớn cho nhà họ Vương rồi<br><br>
 书记的儿子咋了<br>
-Con của bí thư thì sao<br>
+Con của bí thư thì sao<br><br>
 书记的儿子就能不办人事了<br>
-Con của bí thư thì được quyền làm chuyện vô lý à<br>
+Con của bí thư thì được quyền làm chuyện vô lý à<br><br>
 幸福<br>
-Hạnh Phúc<br>
+Hạnh Phúc<br><br>
 人家传家是来闹喜的<br>
-Người ta đến quậy đám cưới cho vui thôi<br>
+Người ta đến quậy đám cưới cho vui thôi<br><br>
 老话说过门三日无大小<br>
-Người xưa nói ba ngày sau cưới không phân lớn nhỏ<br>
+Người xưa nói ba ngày sau cưới không phân lớn nhỏ<br><br>
 人家闹喜来是给咱面子<br>
-Người ta đến quậy là nể mặt mình<br>
+Người ta đến quậy là nể mặt mình<br><br>
 这那是闹吗<br>
-Đây mà gọi là đùa à<br>
+Đây mà gọi là đùa à<br><br>
 他把我妹压在底下<br>
-Hắn đè em con xuống<br>
+Hắn đè em con xuống<br><br>
 衣服都给撕了<br>
-Còn xé cả quần áo<br>
+Còn xé cả quần áo<br><br>
 那是耍流氓<br>
-Đó là giở trò đồi bại<br>
+Đó là giở trò đồi bại<br><br>
 你不砸人家头了吗<br>
-Cô chẳng đã đập đầu người ta rồi sao<br>
+Cô chẳng đã đập đầu người ta rồi sao<br><br>
 你不吃亏呀你<br>
-Cô cũng đâu có chịu thiệt<br>
+Cô cũng đâu có chịu thiệt<br><br>
 妈<br>
-Mẹ<br>
+Mẹ<br><br>
 这不是吃不吃亏的事<br>
-Đây không phải chuyện thiệt hay không<br>
+Đây không phải chuyện thiệt hay không<br><br>
 我为啥要砸他<br>
-Tại sao con lại đánh hắn<br>
+Tại sao con lại đánh hắn<br><br>
 是因为他欺负我妹子<br>
-Là vì hắn bắt nạt em con<br>
+Là vì hắn bắt nạt em con<br><br>
 他欺负我妹子在先<br>
-Hắn làm trước<br>
+Hắn làm trước<br><br>
 我砸他在后<br>
-Con đánh lại sau<br>
+Con đánh lại sau<br><br>
 这事得分个先后<br>
-Chuyện này phải phân rõ trước sau<br>
+Chuyện này phải phân rõ trước sau<br><br>
 得分个里表吧<br>
-Phải phân rõ đúng sai chứ<br>
+Phải phân rõ đúng sai chứ<br><br>
 是啊是啊<br>
-Đúng rồi đúng rồi<br>
+Đúng rồi đúng rồi<br><br>
 人家把你妹子摸了<br>
-Người ta sờ em cô<br>
+Người ta sờ em cô<br><br>
 你把人家头砸了<br>
-Cô đập đầu người ta<br>
+Cô đập đầu người ta<br><br>
 这不扯平了吗<br>
-Vậy là hòa rồi còn gì<br>
+Vậy là hòa rồi còn gì<br><br>
 妈<br>
-Mẹ<br>
+Mẹ<br><br>
 这话不能这么说<br>
-Không thể nói vậy được<br>
+Không thể nói vậy được<br><br>
 我觉得嫂子没有错<br>
-Con thấy chị dâu không sai<br>
+Con thấy chị dâu không sai<br><br>
 是传家哥他欺人太甚<br>
-Là anh Truyền Gia quá đáng<br>
+Là anh Truyền Gia quá đáng<br><br>
 这哪是闹婚哪<br>
-Đây đâu phải quậy đám cưới<br>
+Đây đâu phải quậy đám cưới<br><br>
 这不是猥亵犯罪吗<br>
-Đây là hành vi xâm hại rồi còn gì<br>
+Đây là hành vi xâm hại rồi còn gì<br><br>
 行了 行了<br>
-Thôi được rồi<br>
+Thôi được rồi<br><br>
 没 没那么严重<br>
-Không… không nghiêm trọng vậy đâu<br>
+Không… không nghiêm trọng vậy đâu<br><br>
 幸福<br>
-Hạnh Phúc<br>
+Hạnh Phúc<br><br>
 你说要跟传家要说法<br>
-Cô nói muốn đòi lời giải thích từ Truyền Gia<br>
+Cô nói muốn đòi lời giải thích từ Truyền Gia<br><br>
 啥说法<br>
-Giải thích kiểu gì<br>
+Giải thích kiểu gì<br><br>
 要不啥说法<br>
-Còn muốn gì nữa<br>
+Còn muốn gì nữa<br><br>
 我要他认错<br>
-Con muốn hắn nhận lỗi<br>
+Con muốn hắn nhận lỗi<br><br>
 他要跟我妹亲口说对不起<br>
-Hắn phải trực tiếp xin lỗi em con<br>
+Hắn phải trực tiếp xin lỗi em con<br><br>
 你砸了他头<br>
-Cô đập đầu người ta<br>
+Cô đập đầu người ta<br><br>
 那是个啥说法<br>
-Thế thì tính sao<br>
+Thế thì tính sao<br><br>
 那他要是认错了<br>
-Nếu hắn nhận lỗi<br>
+Nếu hắn nhận lỗi<br><br>
 那我也赔不是<br>
-Thì con cũng xin lỗi<br>
+Thì con cũng xin lỗi<br><br>
 我认罚<br>
-Con chịu phạt<br>
+Con chịu phạt<br><br>
 那你要是给人砸傻了<br>
-Nhỡ cô đánh người ta thành ngốc<br>
+Nhỡ cô đánh người ta thành ngốc<br><br>
 傻呆了<br>
-Đần luôn<br>
+Đần luôn<br><br>
 啥都不知道了<br>
-Không biết gì nữa<br>
+Không biết gì nữa<br><br>
 砸坏了<br>
-Bị thương nặng<br>
+Bị thương nặng<br><br>
 说不了对不起了<br>
-Không nói nổi lời xin lỗi<br>
+Không nói nổi lời xin lỗi<br><br>
 那 bạn 咋办<br>
-Thì cô làm sao<br>
+Thì cô làm sao<br><br>
 你说<br>
-Cô nói đi<br>
+Cô nói đi<br><br>
 他被你砸的<br>
-Bị cô đánh thành<br>
+Bị cô đánh thành<br><br>
 满头满脸都是血<br>
-đầu mặt đầy máu<br>
+đầu mặt đầy máu<br><br>
 是啊<br>
-Đúng vậy<br>
+Đúng vậy<br><br>
 秀玉<br>
-Tú Ngọc<br>
+Tú Ngọc<br><br>
 秀玉<br>
-Tú Ngọc<br>
+Tú Ngọc<br><br>
 你赶紧去那个村卫生院看看<br>
-Mau đến trạm y tế thôn xem đi<br>
+Mau đến trạm y tế thôn xem đi<br><br>
 别多说话<br>
-Đừng nói nhiều<br>
+Đừng nói nhiều<br><br>
 有什么信儿赶紧打电话回来<br>
-Có tin gì gọi về ngay<br>
+Có tin gì gọi về ngay<br><br>
 赶紧去 快<br>
-Đi nhanh đi<br>
+Đi nhanh đi<br><br>
 快点 快点<br>
-Nhanh lên nhanh lên<br>
+Nhanh lên nhanh lên<br><br>
 这婚结的<br>
-Cái đám cưới này…<br>
+Cái đám cưới này…<br><br>
 他满脸是血啊<br>
-Mặt nó toàn máu rồi<br>
+Mặt nó toàn máu rồi<br><br>
 这么严重啊<br>
-Nghiêm trọng vậy sao<br>
+Nghiêm trọng vậy sao<br><br>
 是 你没看见满脸都是血<br>
-Đúng, cô không thấy đầy máu à<br>
+Đúng, cô không thấy đầy máu à<br><br>
 话都说不成了<br>
-Nói cũng không nổi nữa<br>
+Nói cũng không nổi nữa<br><br>
 你说说你闯下这么大的祸<br>
-Cô xem cô gây ra họa lớn thế nào<br>
+Cô xem cô gây ra họa lớn thế nào<br><br>
 我就是把家里全卖光了 卖干净了<br>
-Tôi có bán sạch cả nhà đi<br>
+Tôi có bán sạch cả nhà đi<br><br>
 也赔不起<br>
-cũng không đền nổi<br>
+cũng không đền nổi<br><br>
 妈<br>
-Mẹ<br>
+Mẹ<br><br>
 人是我砸的<br>
-Người là do con đánh<br>
+Người là do con đánh<br><br>
 真要出什么事我担着<br>
-Có chuyện gì con chịu<br>
+Có chuyện gì con chịu<br><br>
 你担着<br>
-Cô chịu à<br>
+Cô chịu à<br><br>
 你担得起吗<br>
-Cô chịu nổi không<br>
+Cô chịu nổi không<br><br>
 祖宗 你担着<br>
-Tổ tông ơi, cô chịu kiểu gì<br>
+Tổ tông ơi, cô chịu kiểu gì<br><br>
 你说去天边去<br>
-Cô có nói đến tận trời<br>
+Cô có nói đến tận trời<br><br>
 你现在是我们王家的媳妇了<br>
-Giờ cô là con dâu nhà họ Vương<br>
+Giờ cô là con dâu nhà họ Vương<br><br>
 你闯下这么大的祸<br>
-Cô gây họa lớn như vậy<br>
+Cô gây họa lớn như vậy<br><br>
 咱们家一个都跑不了<br>
-Cả nhà không ai thoát được<br>
+Cả nhà không ai thoát được<br><br>
 一个都躲不开<br>
-Không ai tránh được<br>
+Không ai tránh được<br><br>
 </p>`
 },
     {
     id: 3,
-    description: "三十而已 - 30 CHƯA PHẢI LÀ HẾT",
+    description: "三十而已 - 30 chưa phải là hết",
     type: 'MONEY & MARKETS',
     type1: 'Money and Markets',
 //    type2: 'Latest',
@@ -406,7 +406,7 @@ Không ai tránh được<br>
 },
     {
     id: 4,
-    description: "天天的陷阱 – CẠM BẪY NGỌT NGÀO",
+    description: "天天的陷阱 – Cạm bẫy ngọt ngào",
     type: 'BUSINESS NEWS',
     type1: 'Business News',
 //    type2: 'Latest',
@@ -524,7 +524,7 @@ Không sao<br>
 },
     {
         id: 5,
-        description: "谢谢你医生 - CẢM ƠN BÁC SĨ",
+        description: "谢谢你医生 - Cảm ơn bác sĩ",
         type: 'TECHNOLOGY',
         type1: 'Tech and Innovation',
 //        type2: 'Latest',
@@ -634,105 +634,105 @@ Các ca mổ của Bạch Thuật tôi trước giờ chưa từng xảy ra sự
         ],
         content: `<p>
 亚妮，你俩别腻歪了，来吃饭啦<br>
-Á Ni, hai đứa đừng sến sẩm với nhau nữa, ra đây ăn cơm đi<br>
+Á Ni, hai đứa đừng sến sẩm với nhau nữa, ra đây ăn cơm đi<br><br>
 啊！来了来了<br>
-Dạ, con đến ngay<br>
+Dạ, con đến ngay<br><br>
 来了妈<br>
-Con đến ngay đây mẹ<br>
+Con đến ngay đây mẹ<br><br>
 妈，我帮你盛饭<br>
-Mẹ, để con xới cơm cho<br>
+Mẹ, để con xới cơm cho<br><br>
 别别别，你快坐下<br>
-Thôi thôi, con mau ngồi xuống đi<br>
+Thôi thôi, con mau ngồi xuống đi<br><br>
 我来，我来<br>
-Để mẹ, để mẹ<br>
+Để mẹ, để mẹ<br><br>
 吃饭了，吃饭了<br>
-Ăn cơm thôi, ăn cơm thôi<br>
+Ăn cơm thôi, ăn cơm thôi<br><br>
 东西都收拾好了<br>
-Dọn dẹp hết đồ rồi hả<br>
+Dọn dẹp hết đồ rồi hả<br><br>
 差不多吧<br>
-Cũng gần xong rồi ạ<br>
+Cũng gần xong rồi ạ<br><br>
 你先把筷子放下<br>
-Con đặt đũa xuống trước đã<br>
+Con đặt đũa xuống trước đã<br><br>
 有个警告啊，非常严肃<br>
-Bố có việc cần cảnh cáo, nghiêm túc lắm đấy<br>
+Bố có việc cần cảnh cáo, nghiêm túc lắm đấy<br><br>
 你们这次蜜月旅行<br>
-Chuyến du lịch trăng mật lần này của hai đứa<br>
+Chuyến du lịch trăng mật lần này của hai đứa<br><br>
 不管在什么情况下<br>
-Bất kể trong trường hợp nào<br>
+Bất kể trong trường hợp nào<br><br>
 你们俩，安全第一<br>
-Thì hai đứa con, cũng phải coi an toàn là số một<br>
+Thì hai đứa con, cũng phải coi an toàn là số một<br><br>
 爸！您这都说了一百多遍了<br>
-Bố! Bố nói hơn một trăm lần rồi đấy<br>
+Bố! Bố nói hơn một trăm lần rồi đấy<br><br>
 少了，一百一百遍说少了<br>
-Ít đấy, một trăm… một trăm lần là ít đó<br>
+Ít đấy, một trăm… một trăm lần là ít đó<br><br>
 你爸说多少遍啊，也不为过。是吧<br>
-Bố con có nói bao nhiêu lần cũng không thừa đâu. Đúng không?<br>
+Bố con có nói bao nhiêu lần cũng không thừa đâu. Đúng không?<br><br>
 放心吧，爸妈<br>
-Bố mẹ yên tâm đi<br>
+Bố mẹ yên tâm đi<br><br>
 我们一定会把安全放在第一位的<br>
-Bọn con nhất định sẽ đặt an toàn lên hàng đầu<br>
+Bọn con nhất định sẽ đặt an toàn lên hàng đầu<br><br>
 来来，快，多吃点牛肉<br>
-Nào nào, mau, ăn nhiều thịt bò vào<br>
+Nào nào, mau, ăn nhiều thịt bò vào<br><br>
 谢谢妈<br>
-Cảm ơn mẹ<br>
+Cảm ơn mẹ<br><br>
 喂，关大哥<br>
-Alo, anh Quan ạ<br>
+Alo, anh Quan ạ<br><br>
 爸，您也多吃一点<br>
-Bố cũng ăn nhiều vào<br>
+Bố cũng ăn nhiều vào<br><br>
 什么事啊？<br>
-Có chuyện gì thế?<br>
+Có chuyện gì thế?<br><br>
 你爸不吃牛肉，咬不动<br>
-Bố con không ăn thịt bò, nhai không nổi<br>
+Bố con không ăn thịt bò, nhai không nổi<br><br>
 谁说我不吃肉了<br>
-Ai nói tôi không ăn thịt<br>
+Ai nói tôi không ăn thịt<br><br>
 我妈还说你，四条腿的你都不吃<br>
-Mẹ con còn bảo, bố không ăn mấy con bốn chân<br>
+Mẹ con còn bảo, bố không ăn mấy con bốn chân<br><br>
 她老虐待我<br>
-Bà ấy hay hành bố lắm<br>
+Bà ấy hay hành bố lắm<br><br>
 你多吃一点，多吃一点<br>
-Con ăn nhiều vào, ăn nhiều vào<br>
+Con ăn nhiều vào, ăn nhiều vào<br><br>
 不给我肉吃<br>
-Không cho bố ăn thịt<br>
+Không cho bố ăn thịt<br><br>
 年轻人多吃点，多吃点<br>
-Thanh niên thì ăn nhiều vào, ăn nhiều vào<br>
+Thanh niên thì ăn nhiều vào, ăn nhiều vào<br><br>
 我知道了<br>
-Em biết rồi<br>
+Em biết rồi<br><br>
 我先跟庆志商量一下<br>
-Để em bàn với Khánh Chí trước đã<br>
+Để em bàn với Khánh Chí trước đã<br><br>
 怎么了？出什么事了？<br>
-Sao vậy? Xảy ra chuyện gì à?<br>
+Sao vậy? Xảy ra chuyện gì à?<br><br>
 有大新闻了<br>
-Có tin nóng<br>
+Có tin nóng<br><br>
 什么大新闻？<br>
-Tin nóng gì cơ?<br>
+Tin nóng gì cơ?<br><br>
 就是水尾村村民集体诉万家污水厂违法排污的事<br>
-Thì là chuyện người dân thôn Thủy Vỹ khởi kiện tập thể nhà máy xử lý nước thải Vạn Gia vì xả thải trái phép<br>
+Thì là chuyện người dân thôn Thủy Vỹ khởi kiện tập thể nhà máy xử lý nước thải Vạn <br>Gia vì xả thải trái phép<br><br>
 这是大新闻，我必须得跟<br>
-Đây là tin nóng, em phải theo tin này<br>
+Đây là tin nóng, em phải theo tin này<br><br>
 要不……咱俩蜜月旅行延期一下呢<br>
-Hay là… chúng mình hoãn chuyến du lịch trăng mật lại?<br>
+Hay là… chúng mình hoãn chuyến du lịch trăng mật lại?<br><br>
 你必须去吗?<br>
-Con nhất định phải đi à?<br>
+Con nhất định phải đi à?<br><br>
 地球离开你就不转了吗?<br>
-Trái Đất vắng con thì ngừng quay à?<br>
+Trái Đất vắng con thì ngừng quay à?<br><br>
 当然不转<br>
-Tất nhiên là ngừng quay<br>
+Tất nhiên là ngừng quay<br><br>
 地球离开亚尼怎么转<br>
-Thiếu Á Ni thì Trái Đất quay kiểu gì<br>
+Thiếu Á Ni thì Trái Đất quay kiểu gì<br><br>
 那她好辛苦的<br>
-Vậy con bé vất vả quá<br>
+Vậy con bé vất vả quá<br><br>
 工作还是第一位的<br>
-Công việc vẫn là hàng đầu<br>
+Công việc vẫn là hàng đầu<br><br>
 蜜月嘛，蜜月<br>
-Trăng mật, trăng mật<br>
+Trăng mật, trăng mật<br><br>
 反正你们俩月月都蜜月<br>
-Dù sao thì tháng nào của hai đứa chẳng như trăng mật<br>
+Dù sao thì tháng nào của hai đứa chẳng như trăng mật<br><br>
 我觉得反正咱们时间还有嘛，以后去也可以啊<br>
-Anh thấy chúng ta cũng còn nhiều thời gian mà, để sau này đi cũng được<br>
+Anh thấy chúng ta cũng còn nhiều thời gian mà, để sau này đi cũng được<br><br>
 你决定我听你的<br>
-Em quyết định đi, anh nghe em<br>
+Em quyết định đi, anh nghe em<br><br>
 谢谢老公，你真好<br>
-Cảm ơn ông xã, anh tốt ghê<br>
+Cảm ơn ông xã, anh tốt ghê<br><br>
 </p>`
 },
     {
@@ -756,82 +756,82 @@ Cảm ơn ông xã, anh tốt ghê<br>
         ],
         content: `<p>
 你还是辞了吧<br>
-Anh vẫn nên nghỉ việc đi<br>
+Anh vẫn nên nghỉ việc đi<br><br>
 行 辞就辞<br>
-Được, nghỉ thì nghỉ<br>
+Được, nghỉ thì nghỉ<br><br>
 我早就不想干了<br>
-Tôi vốn dĩ cũng chẳng muốn làm nữa<br>
+Tôi vốn dĩ cũng chẳng muốn làm nữa<br><br>
 但是我辞了啊<br>
-But I quit, then what?<br>
+But I quit, then what?<br><br>
 庆志 你还得给我找个工作<br>
-Khánh Chí, cậu vẫn phải kiếm việc khác cho tôi<br>
+Khánh Chí, cậu vẫn phải kiếm việc khác cho tôi<br><br>
 哥 你弟没有那个本事<br>
-Anh à, em thật sự không có khả năng đó<br>
+Anh à, em thật sự không có khả năng đó<br><br>
 大哥 嫂子<br>
-Anh, chị dâu<br>
+Anh, chị dâu<br><br>
 如果你们生活上有困难<br>
-Nếu hai người gặp khó khăn về cuộc sống<br>
+Nếu hai người gặp khó khăn về cuộc sống<br><br>
 我王庆志不吃不喝<br>
-Em– Vương Khánh Chí dù nhịn ăn nhịn uống<br>
+Em– Vương Khánh Chí dù nhịn ăn nhịn uống<br><br>
 我一定能帮你们的<br>
-cũng nhất định sẽ giúp được<br>
+cũng nhất định sẽ giúp được<br><br>
 但公司上的事情我真的爱莫能助<br>
-Nhưng chuyện trong công ty thì em thật sự bất lực<br>
+Nhưng chuyện trong công ty thì em thật sự bất lực<br><br>
 你 你现在不是给大官当秘书了吗<br>
-Cậu… chẳng phải đang làm thư ký cho lãnh đạo lớn sao<br>
+Cậu… chẳng phải đang làm thư ký cho lãnh đạo lớn sao<br><br>
 哥 我跟的不是什么大官<br>
-Anh ơi, người em theo không phải quan lớn gì<br>
+Anh ơi, người em theo không phải quan lớn gì<br><br>
 就算是我也不能打着他的旗号做事情啊<br>
-Dù có là vậy em cũng không thể mượn danh nghĩa của họ để làm việc được<br>
+Dù có là vậy em cũng không thể mượn danh nghĩa của họ để làm việc được<br><br>
 只要肯努力 肯定能挣到钱<br>
-Chỉ cần chịu cố gắng thì chắc chắn kiếm được tiền<br>
+Chỉ cần chịu cố gắng thì chắc chắn kiếm được tiền<br><br>
 你看我嫂子 干得不是挺好的吗<br>
-Anh xem chị dâu làm chẳng phải rất tốt sao<br>
+Anh xem chị dâu làm chẳng phải rất tốt sao<br><br>
 嫂子 我还有事 我先走了<br>
-Chị dâu, em còn việc, em đi trước<br>
+Chị dâu, em còn việc, em đi trước<br><br>
 王庆志 庆志 你大哥把你供出来<br>
-Vương Khánh Chí! Anh trai cậu khai cậu ra rồi đó<br>
+Vương Khánh Chí! Anh trai cậu khai cậu ra rồi đó<br><br>
 你大哥的事推六二五不管了是不是<br>
-Chuyện của anh, cậu định phủi sạch không lo nữa đúng không<br>
+Chuyện của anh, cậu định phủi sạch không lo nữa đúng không<br><br>
 好 明天我就去辞<br>
-Được, ngày mai tôi đi nghỉ việc<br>
+Được, ngày mai tôi đi nghỉ việc<br><br>
 辞了之后 我再顺便问候你的宝贝老丈人<br>
-Nghỉ xong tôi tiện thể hỏi thăm ông bố vợ tương lai quý hóa của cậu luôn<br>
+Nghỉ xong tôi tiện thể hỏi thăm ông bố vợ tương lai quý hóa của cậu luôn<br><br>
 王庆来<br>
-Vương Khánh Lai<br>
+Vương Khánh Lai<br><br>
 你闹够了没有<br>
-Anh làm loạn đủ chưa<br>
+Anh làm loạn đủ chưa<br><br>
 你现在怎么变成这样了<br>
-Sao anh lại trở thành thế này<br>
+Sao anh lại trở thành thế này<br><br>
 人家帮你找工作 你不说感激人家<br>
-Người ta giúp anh tìm việc mà anh không biết cảm ơn<br>
+Người ta giúp anh tìm việc mà anh không biết cảm ơn<br><br>
 你还跑到亚妮爸面前跌人家面子<br>
-Còn chạy tới trước mặt ba của Á Ni làm mất mặt người ta<br>
+Còn chạy tới trước mặt ba của Á Ni làm mất mặt người ta<br><br>
 你要脸吗<br>
-Anh còn biết xấu hổ không<br>
+Anh còn biết xấu hổ không<br><br>
 你去 我看你敢去<br>
-Anh cứ đi đi, tôi xem anh dám không<br>
+Anh cứ đi đi, tôi xem anh dám không<br><br>
 堂堂正正一个大男人<br>
-Một người đàn ông đường đường chính chính<br>
+Một người đàn ông đường đường chính chính<br><br>
 没弟弟你活不了啦<br>
-Không có em trai thì anh sống không nổi à<br>
+Không có em trai thì anh sống không nổi à<br><br>
 来到城里之后 你左一个不适应右一个不习惯<br>
-Lên thành phố rồi thì cái gì cũng không quen, cái gì cũng không thích<br>
+Lên thành phố rồi thì cái gì cũng không quen, cái gì cũng không thích<br><br>
 是 咱们来城里多多少少也是因为我<br>
-Đúng, việc lên thành phố này phần nào cũng là do tôi<br>
+Đúng, việc lên thành phố này phần nào cũng là do tôi<br><br>
 你对我阴阳怪气的也就算了<br>
-Anh nói móc nói mỉa tôi thì tôi còn chịu được<br>
+Anh nói móc nói mỉa tôi thì tôi còn chịu được<br><br>
 你现在还跟你親兄弟翻脸<br>
-Giờ anh còn trở mặt với chính em ruột mình<br>
+Giờ anh còn trở mặt với chính em ruột mình<br><br>
 连老丈人都不放过<br>
-Đến cả bố vợ cũng không tha<br>
+Đến cả bố vợ cũng không tha<br><br>
 我们大家都欠你的是吗<br>
-Hay là tất cả chúng tôi đều nợ anh hả<br>
+Hay là tất cả chúng tôi đều nợ anh hả<br><br>
 </p>`
 },
     {
         id: 8,
-        description: "焕羽 - HOÁN VŨ",
+        description: "焕羽 - Hoán vũ",
         type: 'LIFESTYLE',
         type1: 'Lifestyle',
         author: 'Thomas Anderson',
@@ -839,108 +839,108 @@ Hay là tất cả chúng tôi đều nợ anh hả<br>
         imgCaption: "Top hiking destinations for fall foliage",
         video: "https://drive.google.com/file/d/16WT7EOpobHM4hRNikjU7wR5adNALOTnT/preview",
         vocabulary: [
-            //{ word: "群众 /qúnzhòng/ (名)", meaning: "quần chúng" },
-            //{ word: "跪下 /guì xià/ (动)", meaning: "quỳ xuống" },
+            { word: "群众 /qúnzhòng/ (名)", meaning: "quần chúng" },
+            { word: "跪下 /guì xià/ (动)", meaning: "quỳ xuống" },
             { word: "赔礼 /péilǐ/ (动)", meaning: "xin lỗi (trang trọng)" },
-            //{ word: "认错 /rèn cuò/ (动)", meaning: "nhận lỗi" },
-            //{ word: "毁 /huǐ/ (动)", meaning: "phá hủy" },
+            { word: "认错 /rèn cuò/ (动)", meaning: "nhận lỗi" },
+            { word: "毁 /huǐ/ (动)", meaning: "phá hủy" },
             { word: "病倒 /bìngdǎo/ (动)", meaning: "đổ bệnh" },
             { word: "挑起 /tiāoqǐ/ (动)", meaning: "gánh vác" },
             { word: "翅膀硬了 /chìbǎng yìng le/ (惯)", meaning: "đủ lông đủ cánh" },
             { word: "捣乱 /dǎoluàn/ (动)", meaning: "gây rối" },
             { word: "带坏 /dài huài/ (动)", meaning: "làm hư (ai đó)" },
             { word: "管教 /guǎnjiào/ (动)", meaning: "dạy dỗ, quản lý" },
-            //{ word: "借口 /jièkǒu/ (名)", meaning: "lý do, cái cớ" },
+            { word: "借口 /jièkǒu/ (名)", meaning: "lý do, cái cớ" },
             { word: "交代 /jiāodài/ (动)", meaning: "giải thích, bàn giao" },
             { word: "闯祸 /chuǎng huò/ (动)", meaning: "gây họa, gây rắc rối" }
         ],
         content: `<p>
 在这里我代表乔家人<br>
-Tại đây tôi xin thay mặt nhà họ Kiều<br>
+Tại đây tôi xin thay mặt nhà họ Kiều<br><br>
 对所有提供热心帮助的热情群众表示感谢<br>
-Bày tỏ lòng biết ơn đến tất cả những công dân đã nhiệt tình giúp đỡ<br>
+Bày tỏ lòng biết ơn đến tất cả những công dân đã nhiệt tình giúp đỡ<br><br>
 乔家人终于团圆了<br>
-Cuối cùng cả nhà họ Kiều cũng đoàn tụ rồi<br>
+Cuối cùng cả nhà họ Kiều cũng đoàn tụ rồi<br><br>
 爷爷<br>
-Ông nội<br>
+Ông nội<br><br>
 喝茶<br>
-Uống trà<br>
+Uống trà<br><br>
 不喝<br>
-Không uống<br>
+Không uống<br><br>
 你给我跪下<br>
-Cháu quỳ xuống cho ông<br>
+Cháu quỳ xuống cho ông<br><br>
 我不<br>
-Cháu không<br>
+Cháu không<br><br>
 爷爷<br>
-Ông ơi<br>
+Ông ơi<br><br>
 你知道错了吗<br>
-Cháu biết lỗi chưa?<br>
+Cháu biết lỗi chưa?<br><br>
 说话<br>
-Nói đi<br>
+Nói đi<br><br>
 我没错<br>
-Cháu không sai<br>
+Cháu không sai<br><br>
 就是让你赔礼认个错<br>
-Chỉ muốn cháu xin lỗi, nhận sai thôi mà<br>
+Chỉ muốn cháu xin lỗi, nhận sai thôi mà<br><br>
 认个错不就完了吗<br>
-Nhận lỗi là xong mà<br>
+Nhận lỗi là xong mà<br><br>
 你 你劲睿哥 这个婚礼都被你给毁了<br>
-Đám cưới của anh Kình Duệ con bị con phá hỏng rồi<br>
+Đám cưới của anh Kình Duệ con bị con phá hỏng rồi<br><br>
 现在人正闹离婚呢<br>
-Bây giờ người ta đang ầm ĩ đòi ly hôn đấy<br>
+Bây giờ người ta đang ầm ĩ đòi ly hôn đấy<br><br>
 奶奶也被气得都病倒了<br>
-Bà cũng tức tới đổ bệnh<br>
+Bà cũng tức tới đổ bệnh<br><br>
 认个错啊<br>
-Con nhận lỗi đi<br>
+Con nhận lỗi đi<br><br>
 劲睿本来都挑起了这个家<br>
-Vốn dĩ Kinh Duệ là người gánh vác gia đình này<br>
+Vốn dĩ Kinh Duệ là người gánh vác gia đình này<br><br>
 全让你给毁了<br>
-Giờ tất cả đều bị cháu phá hết<br>
+Giờ tất cả đều bị cháu phá hết<br><br>
 我也能挑起这个家的<br>
-Cháu cũng có thể gánh vác gia đình này<br>
+Cháu cũng có thể gánh vác gia đình này<br><br>
 你翅膀硬了是吧<br>
-Con đủ lông đủ cánh rồi phải không<br>
+Con đủ lông đủ cánh rồi phải không<br><br>
 捣什么乱啊<br>
-Làm loạn gì vậy<br>
+Làm loạn gì vậy<br><br>
 这爸爸正说话呢<br>
-Bố còn đang nói chuyện đây<br>
+Bố còn đang nói chuyện đây<br><br>
 你这 这还让你给带坏了<br>
-Con con bị bà dạy hư rồi<br>
+Con con bị bà dạy hư rồi<br><br>
 爷爷<br>
-Ông nội<br>
+Ông nội<br><br>
 少说两句<br>
-Bố nói ít thôi<br>
+Bố nói ít thôi<br><br>
 别把自己气坏了再<br>
-Đừng nóng giận hại cơ thể<br>
+Đừng nóng giận hại cơ thể<br><br>
 是我们没有把孩子管教好<br>
-Là bọn con không biết dạy con tử tế<br>
+Là bọn con không biết dạy con tử tế<br><br>
 往后 chúng tôi nhất định sẽ quản tốt hơn<br>
-Sau này bọn con nhất định sẽ quản tốt hơn<br>
+Sau này bọn con nhất định sẽ quản tốt hơn<br><br>
 好了<br>
-Được rồi<br>
+Được rồi<br><br>
 孩子都回来了<br>
-Con cái đều về rồi<br>
+Con cái đều về rồi<br><br>
 咱们就回去吧<br>
-Chúng ta về thôi<br>
+Chúng ta về thôi<br><br>
 走 回去<br>
-Đi, về đi<br>
+Đi, về đi<br><br><br>
 走了<br>
-Đi thôi<br>
+Đi thôi<br><br>
 走吧 走<br>
-Đi nào, đi<br>
+Đi nào, đi<br><br>
 赶紧带他回老家一趟<br>
-Nhanh chóng dẫn nó về quê một chuyến đi<br>
+Nhanh chóng dẫn nó về quê một chuyến đi<br><br>
 事情闹到这样<br>
-Việc ầm ĩ như thế này<br>
+Việc ầm ĩ như thế này<br><br>
 总得给他借口交代吧<br>
-Cũng phải cho mọi người một lời giải thích<br>
+Cũng phải cho mọi người một lời giải thích<br><br>
 快让青羽起来<br>
-Nhanh bảo Thanh Vũ dậy đi<br>
+Nhanh bảo Thanh Vũ dậy đi<br><br>
 走了啊<br>
-Đi thôi<br>
+Đi thôi<br><br>
 走吧 走吧<br>
-Đi nào, đi<br>
+Đi nào, đi<br><br>
 看看你闯了多大的祸<br>
-Con xem con gây họa lớn thế nào đi<br>
+Con xem con gây họa lớn thế nào đi<br><br>
 </p>`
 },
     {
@@ -953,98 +953,98 @@ Con xem con gây họa lớn thế nào đi<br>
         imgCaption: "Affordable auto repairs to prepare for winter",
         video: "https://drive.google.com/file/d/1hsJuEhdC4Lw5KF0W6DtGwFNKNSTY6IMv/preview",
         vocabulary: [
-            //{ word: "罗马 /Luómǎ/ (名)", meaning: "Rome (thủ đô Italy)" },
-            //{ word: "乡间 /xiāngjiān/ (名)", meaning: "vùng quê" },
+            { word: "罗马 /Luómǎ/ (名)", meaning: "Rome (thủ đô Italy)" },
+            { word: "乡间 /xiāngjiān/ (名)", meaning: "vùng quê" },
             { word: "容不下 /róng bu xià/ (动补)", meaning: "không chứa nổi" },
             { word: "争气 /zhēngqì/ (动)", meaning: "có chí tiến thủ, làm nên chuyện" },
             { word: "不省心 /bù shěngxīn/ (形)", meaning: "không khiến người khác yên tâm" },
             { word: "奔劲 /bèn jìn/ (名)", meaning: "động lực cố gắng" },
             { word: "讲究 /jiǎngjiu/ (动/形)", meaning: "cầu kỳ, chú trọng" },
-            //{ word: "时尚 /shíshàng/ (名/形)", meaning: "thời trang" },
+            { word: "时尚 /shíshàng/ (名/形)", meaning: "thời trang" },
             { word: "防滑垫 /fánghuá diàn/ (名)", meaning: "miếng chống trượt" },
-            //{ word: "闺女 /guīnǚ/ (名)", meaning: "con gái" },
-            //{ word: "欠人情 /qiàn rénqíng/ (动)", meaning: "mắc nợ ân tình" },
+            { word: "闺女 /guīnǚ/ (名)", meaning: "con gái" },
+            { word: "欠人情 /qiàn rénqíng/ (动)", meaning: "mắc nợ ân tình" },
             { word: "诡辩 /guǐbiàn/ (名/动)", meaning: "ngụy biện, cãi chày cãi cối" },
-            //{ word: "重男轻女 /zhòng nán qīng nǚ/ (成)", meaning: "trọng nam khinh nữ" },
+            { word: "重男轻女 /zhòng nán qīng nǚ/ (成)", meaning: "trọng nam khinh nữ" },
             { word: "传宗接代 /chuán zōng jiē dài/ (成)", meaning: "nối dõi tông đường" },
             { word: "族谱 /zúpǔ/ (名)", meaning: "gia phả" },
-            //{ word: "支援 /zhīyuán/ (动)", meaning: "hỗ trợ" }
+            { word: "支援 /zhīyuán/ (动)", meaning: "hỗ trợ" }
         ],
         content: `<p>
 妈<br>
-Mẹ<br>
+Mẹ<br><br>
 我早就跟你说过了<br>
-Con đã nói với mẹ từ lâu rồi<br>
+Con đã nói với mẹ từ lâu rồi<br><br>
 我不会回镇上的<br>
-Con sẽ không về thị trấn đâu<br>
+Con sẽ không về thị trấn đâu<br><br>
 你那房子买了<br>
-Mẹ mua căn nhà đó<br>
+Mẹ mua căn nhà đó<br><br>
 也是租出去<br>
-Cũng đem cho thuê đi<br>
+Cũng đem cho thuê đi<br><br>
 你刚才不是还说<br>
-Lúc nãy con chẳng phải còn nói<br>
+Lúc nãy con chẳng phải còn nói<br><br>
 条条大路通罗马 呢吗<br>
-Mọi con đường đều dẫn đến thành Rome còn gì<br>
+Mọi con đường đều dẫn đến thành Rome còn gì<br><br>
 这句话的重点是<br>
-Trọng điểm của câu đó là<br>
+Trọng điểm của câu đó là<br><br>
 大路和罗马<br>
-con đường và thành Rome<br>
+con đường và thành Rome<br><br>
 不是乡间和南枰<br>
-Không phải là vùng quê và Nam Bình<br>
+Không phải là vùng quê và Nam Bình<br><br>
 怎么着<br>
-Sao nào<br>
+Sao nào<br><br>
 你也要跟我聊精神世界<br>
-Con cũng muốn nói đến thế giới tinh thần với mẹ à<br>
+Con cũng muốn nói đến thế giới tinh thần với mẹ à<br><br>
 上海就是你的罗马<br>
-Thượng Hải chính là thành Rome của con<br>
+Thượng Hải chính là thành Rome của con<br><br>
 我们这小地方容不下 you<br>
-Cái nơi nhỏ bé này không chứa nổi con<br>
+Cái nơi nhỏ bé này không chứa nổi con<br><br>
 没那意思<br>
-Con không có ý đó<br>
+Con không có ý đó<br><br>
 那你什么意思啊 你说<br>
-Vậy con có ý gì, con nói đi<br>
+Vậy con có ý gì, con nói đi<br><br>
 你说呀<br>
-Con nói đi<br>
+Con nói đi<br><br>
 儿子儿子不争气<br>
-Con trai thì vô tích sự<br>
+Con trai thì vô tích sự<br><br>
 女儿女儿不省心<br>
-Con gái thì cũng phải lo<br>
+Con gái thì cũng phải lo<br><br>
 我 我还奔个什么劲啊我<br>
-Mẹ… mẹ còn cố gắng làm gì nữa<br>
+Mẹ… mẹ còn cố gắng làm gì nữa<br><br>
 我是不是说过在家别穷想讲究<br>
-Mẹ đã nói rồi, ở nhà thì đừng bày đặt còn gì<br>
+Mẹ đã nói rồi, ở nhà thì đừng bày đặt còn gì<br><br>
 时不时尚的 谁看你啊<br>
-Có thời trang hay không thì ai nhìn con chứ<br>
+Có thời trang hay không thì ai nhìn con chứ<br><br>
 穿你何叔给你贴好防滑垫的那双<br>
-Mang đôi giày mà chú Hà dán miếng chống trượt cho con ấy<br>
+Mang đôi giày mà chú Hà dán miếng chống trượt cho con ấy<br><br>
 干吗<br>
-Làm gì<br>
+Làm gì<br><br>
 没钱了就说<br>
-Hết tiền thì cứ nói<br>
+Hết tiền thì cứ nói<br><br>
 你儿子没赚钱<br>
-Con trai mẹ không kiếm được tiền<br>
+Con trai mẹ không kiếm được tiền<br><br>
 闺女可不少挣<br>
-But your daughter earns quite a bit<br>
+But your daughter earns quite a bit<br><br>
 我不要你的<br>
-Mẹ không cần tiền của con<br>
+Mẹ không cần tiền của con<br><br>
 怎么着<br>
-Sao vậy<br>
+Sao vậy<br><br>
 重男轻女啊<br>
-Mẹ trọng nam khinh nữ à<br>
+Mẹ trọng nam khinh nữ à<br><br>
 非得儿子传宗接代<br>
-Nhất định phải là con trai nối dõi tông đường<br>
+Nhất định phải là con trai nối dõi tông đường<br><br>
 继承祖族谱<br>
-Kế thừa gia phả tổ tiên<br>
+Kế thừa gia phả tổ tiên<br><br>
 当闺女的<br>
-Còn con gái<br>
+Còn con gái<br><br>
 想支援你点钱<br>
-Muốn phụng dưỡng mẹ một ít tiền<br>
+Muốn phụng dưỡng mẹ một ít tiền<br><br>
 你害怕欠人情啊<br>
-Mẹ lại sợ mang nợ ân tình sao<br>
+Mẹ lại sợ mang nợ ân tình sao<br><br>
 论诡辩<br>
-Về tài cãi bướng<br>
+Về tài cãi bướng<br><br>
 你们仨全镇最能<br>
-Ba người các con là giỏi nhất cái thị trấn này<br>
+Ba người các con là giỏi nhất cái thị trấn này<br><br>
 </p>`
 },
     // {
@@ -1097,18 +1097,18 @@ Ba người các con là giỏi nhất cái thị trấn này<br>
     imgCaption: "安家 - Chuyên gia nhà đất",
     video: "https://drive.google.com/file/d/12-UD8LEitYhkTp06duJCRBctjFVzZmXL/preview",
     vocabulary: [
-    //{ word: "卧室 /wòshì/ (名)", meaning: "phòng ngủ" },
-    //{ word: "厨房 /chúfáng/ (名)", meaning: "bếp" },
+    { word: "卧室 /wòshì/ (名)", meaning: "phòng ngủ" },
+    { word: "厨房 /chúfáng/ (名)", meaning: "bếp" },
     { word: "卫生间 /wèishēngjiān/ (名)", meaning: "nhà vệ sinh" },
     { word: "储物间 /chǔwùjiān/ (名)", meaning: "phòng chứa đồ" },
     { word: "朝南 /cháo nán/ (形)", meaning: "hướng Nam" },
     { word: "南北通 /nánběitōng/ (形)", meaning: "thông Nam – Bắc" },
     { word: "全朝阳 /quán cháoyáng/ (形)", meaning: "tất cả các phòng đều hướng nắng" },
-    //{ word: "价格 /jiàgé/ (名)", meaning: "giá cả" },
-    //{ word: "楼层 /lóucéng/ (名)", meaning: "tầng nhà" },
-    //{ word: "学区 /xuéqū/ (名)", meaning: "khu học tập, khu học sinh" },
+    { word: "价格 /jiàgé/ (名)", meaning: "giá cả" },
+    { word: "楼层 /lóucéng/ (名)", meaning: "tầng nhà" },
+    { word: "学区 /xuéqū/ (名)", meaning: "khu học tập, khu học sinh" },
     { word: "房型 /fángxíng/ (名)", meaning: "kiểu nhà" },
-    //{ word: "交通 /jiāotōng/ (名)", meaning: "giao thông" },
+    { word: "交通 /jiāotōng/ (名)", meaning: "giao thông" },
     { word: "行情 /hángqíng/ (名)", meaning: "giá thị trường, tình hình thị trường" }
 ],
     content: `
@@ -1402,7 +1402,7 @@ Tạm biệt tạm biệt<br><br>
 },
     {
     id: 13,
-    description: "暮色心约 - MỘ SẮC TÂM ƯỚC",
+    description: "暮色心约 - Mộ sắc tâm ước",
     type: 'MONEY & MARKETS',
     type1: 'Money and Markets',
     author: 'Maria Gonzalez',
@@ -1417,7 +1417,7 @@ Tạm biệt tạm biệt<br><br>
         { word: "掰 /bāi/ (动)", meaning: "bẻ, tách ra" },
         { word: "小算盘 /xiǎo suàn pán/ (名)", meaning: "mưu tính nhỏ, tính toán chi li" },
         { word: "数落 /shǔ luo/ (动)", meaning: "cằn nhằn, trách móc" },
-        //{ word: "合算 /hé suàn/ (形)", meaning: "đáng tiền, có lợi" },
+        { word: "合算 /hé suàn/ (形)", meaning: "đáng tiền, có lợi" },
         { word: "豆苗 /dòu miáo/ (名)", meaning: "rau mầm đậu" },
         { word: "过秤 /guò chèng/ (动)", meaning: "cân hàng" }
     ],
@@ -1630,81 +1630,81 @@ Nào<br><br>
     ],
    content: `<p>
 还有几个人呢<br>
-Còn mấy người nữa<br>
+Còn mấy người nữa<br><br>
 最后一个<br>
-Người cuối cùng rồi<br>
+Người cuối cùng rồi<br><br>
 那个是那谁<br>
-Người đó là ai ấy nhỉ<br>
+Người đó là ai ấy nhỉ<br><br>
 那刘梓懿刘大夫<br>
-Là Lưu Tử Ý bác sĩ Lưu đó<br>
+Là Lưu Tử Ý bác sĩ Lưu đó<br><br>
 你好 我是<br>
-Chào anh là tôi<br>
+Chào anh là tôi<br><br>
 那个 就诊卡<br>
-thẻ khám bệnh ạ<br>
+thẻ khám bệnh ạ<br><br>
 那个 麻烦您给看看这个<br>
-Phiền bác sĩ xem giúp cái này với ạ<br>
+Phiền bác sĩ xem giúp cái này với ạ<br><br>
 这片子是您本人的吗<br>
-Phim chụp này là của anh à<br>
+Phim chụp này là của anh à<br><br>
 是 是我老弟的<br>
-Dạ là của em trai tôi<br>
+Dạ là của em trai tôi<br><br>
 那 那个 医保卡是我的名 我给挂的号<br>
-À thì thẻ bảo hiểm là tên tôi tôi đăng ký khám giúp nó<br>
+À thì thẻ bảo hiểm là tên tôi tôi đăng ký khám giúp nó<br><br>
 按照规定得本人挂号啊<br>
-Theo quy định thì phải chính người bệnh tự đăng ký<br>
+Theo quy định thì phải chính người bệnh tự đăng ký<br><br>
 他这之前是做过手术吧<br>
-Trước đây cậu ấy từng phẫu thuật rồi đúng không<br>
+Trước đây cậu ấy từng phẫu thuật rồi đúng không<br><br>
 对<br>
-Vâng<br>
+Vâng<br><br>
 之前就您给做的吗<br>
-Lần trước chẳng phải cũng là bác sĩ phẫu thuật cho nó sao<br>
+Lần trước chẳng phải cũng là bác sĩ phẫu thuật cho nó sao<br><br>
 然后他现在复发了<br>
-Giờ bệnh của nó tái phát rồi<br>
+Giờ bệnh của nó tái phát rồi<br><br>
 上别的医院检查<br>
-Tôi đưa nó sang bệnh viện khác kiểm tra<br>
+Tôi đưa nó sang bệnh viện khác kiểm tra<br><br>
 人家说现在都  别的大夫不敢给做<br>
-bên đó nói giờ các bác sĩ khác không ai dám phẫu thuật nữa<br>
+bên đó nói giờ các bác sĩ khác không ai dám phẫu thuật nữa<br><br>
 说还得上您这块来<br>
-bảo là vẫn phải tìm đến bác sĩ<br>
+bảo là vẫn phải tìm đến bác sĩ<br><br>
 所以就 就<br>
-nên tôi mới <br>
+nên tôi mới <br><br>
 我做的 <br>
-Tôi phẫu thuật cho cậu ấy <br>
+Tôi phẫu thuật cho cậu ấy <br><br>
 患者叫什么名字<br>
-Bệnh nhân tên gì<br>
+Bệnh nhân tên gì<br><br>
 他那啥  您先给看看<br>
-bác sĩ cứ xem phim trước đã<br>
+bác sĩ cứ xem phim trước đã<br><br>
 他能不能做呀现在<br>
-xem giờ nó còn phẫu thuật được không ạ<br>
+xem giờ nó còn phẫu thuật được không ạ<br><br>
 他这情况 你看啊<br>
-Tình trạng của cậu ấy là thế này<br>
+Tình trạng của cậu ấy là thế này<br><br>
 他这个位置之前做过手术的<br>
-chỗ này trước đây đã từng phẫu thuật rồi<br>
+chỗ này trước đây đã từng phẫu thuật rồi<br><br>
 现在已经复发了<br>
-giờ đã tái phát rồi<br>
+giờ đã tái phát rồi<br><br>
 现在他是另一边又长起来了<br>
-Bây giờ bên còn lại cũng lại xuất hiện khối u<br>
+Bây giờ bên còn lại cũng lại xuất hiện khối u<br><br>
 看起来也是胶质瘤<br>
-Nhìn thì có vẻ cũng là u thần kinh đệm<br>
+Nhìn thì có vẻ cũng là u thần kinh đệm<br><br>
 如果两边一起手术的话难度非常高<br>
-Nếu phải phẫu thuật cả hai bên cùng lúc thì độ khó sẽ rất cao<br>
+Nếu phải phẫu thuật cả hai bên cùng lúc thì độ khó sẽ rất cao<br><br>
 他现在人在江海吗<br>
-Hiện giờ cậu ấy đang ở Giang Hải à<br>
+Hiện giờ cậu ấy đang ở Giang Hải à<br><br>
 他在 在呢 在<br>
-Dạ có nó đang ở đó<br>
+Dạ có nó đang ở đó<br><br>
 那明天你带他过来吧<br>
-Vậy mai anh đưa cậu ấy tới đây đi<br>
+Vậy mai anh đưa cậu ấy tới đây đi<br><br>
 还是得本人来啊<br>
-Vẫn phải để chính cậu ấy tới<br>
+Vẫn phải để chính cậu ấy tới<br><br>
 行行行<br>
-Vâng vâng vâng<br>
+Vâng vâng vâng<br><br>
 忙着啊 谢谢啊<br>
-Bác sĩ cứ làm việc đi ạ cảm ơn bác sĩ<br>
+Bác sĩ cứ làm việc đi ạ cảm ơn bác sĩ<br><br>
 刘大夫<br>
-Bác sĩ Lưu<br>
+Bác sĩ Lưu<br><br>
 对不起啊<br>
-Xin lỗi <br>
+Xin lỗi <br><br>
 这位患者<br>
-Bệnh nhân này <br>
+Bệnh nhân này <br><br>
 </p>`
 },
     {
@@ -1728,133 +1728,133 @@ Bệnh nhân này <br>
         ],
         content: `<p>
 这位医生 我已经向你道过歉了<br>
-Bác sĩ này, tôi đã xin lỗi anh rồi<br>
+Bác sĩ này, tôi đã xin lỗi anh rồi<br><br>
 你还把我们叫过来是干嘛呀<br>
-Sao còn gọi chúng tôi đến đây nữa<br>
+Sao còn gọi chúng tôi đến đây nữa<br><br>
 我把你们叫过来是想跟你们说一下<br>
-Tôi gọi mọi người đến là muốn nói với mọi người<br>
+Tôi gọi mọi người đến là muốn nói với mọi người<br><br>
 你父亲的病情<br>
-Về tình trạng bệnh của bố cô<br>
+Về tình trạng bệnh của bố cô<br><br>
 这个你就不用操心了<br>
-Việc này anh không cần lo<br>
+Việc này anh không cần lo<br><br>
 要不这样吧<br>
-Hay là thế này<br>
+Hay là thế này<br><br>
 您还是帮忙联系一下, 负责我爸的主治医生吧<br>
-Anh giúp liên hệ bác sĩ điều trị chính của bố tôi đi<br>
+Anh giúp liên hệ bác sĩ điều trị chính của bố tôi đi<br><br>
 是 这是有什么问题<br>
-Vâng, là có vấn đề gì<br>
+Vâng, là có vấn đề gì<br><br>
 不能跟我说是吗<br>
-không thể nói với tôi sao<br>
+không thể nói với tôi sao<br><br>
 跟你说啊<br>
-Nói với anh à<br>
+Nói với anh à<br><br>
 常年在酒吧泡着 一看就不靠谱<br>
-Suốt ngày la cà quán bar, nhìn là biết không đáng tin<br>
+Suốt ngày la cà quán bar, nhìn là biết không đáng tin<br><br>
 怎么跟他说<br>
-Nói với cậu ta sao được<br>
+Nói với cậu ta sao được<br><br>
 没错<br>
-Đúng vậy<br>
+Đúng vậy<br><br>
 病情的事没什么好说的<br>
-Chuyện bệnh tình thì không có gì để nói<br>
+Chuyện bệnh tình thì không có gì để nói<br><br>
 酒吧的事 倒要跟你好好说说<br>
-Nhưng chuyện ở quán bar thì phải nói chuyện với cậu cho rõ<br>
+Nhưng chuyện ở quán bar thì phải nói chuyện với cậu cho rõ<br><br>
 上次那个账还没算清楚呢<br>
-Lần trước còn chưa tính sổ xong đâu<br>
+Lần trước còn chưa tính sổ xong đâu<br><br>
 对不起啊 医生<br>
-Xin lỗi bác sĩ<br>
+Xin lỗi bác sĩ<br><br>
 是这样 是一位姓顾的医生叫 we 来的<br>
-Là thế này, có một bác sĩ họ Cố gọi chúng tôi tới<br>
+Là thế này, có một bác sĩ họ Cố gọi chúng tôi tới<br><br>
 其实我们是想跟他聊一下<br>
-Thực ra chúng tôi muốn nói chuyện với anh ấy<br>
+Thực ra chúng tôi muốn nói chuyện với anh ấy<br><br>
 我是高浠医生的同事<br>
-Tôi là đồng nghiệp của bác sĩ Cao Hy<br>
+Tôi là đồng nghiệp của bác sĩ Cao Hy<br><br>
 林建国患者的外科主治医生<br>
-Bác sĩ ngoại khoa điều trị chính của bệnh nhân Lâm Kiến Quốc<br>
+Bác sĩ ngoại khoa điều trị chính của bệnh nhân Lâm Kiến Quốc<br><br>
 顾魏<br>
-Cố Ngụy<br>
+Cố Ngụy<br><br>
 原来您是我爸的主治医生啊<br>
-Thì ra anh là bác sĩ chính của bố tôi<br>
+Thì ra anh là bác sĩ chính của bố tôi<br><br>
 咱也不知道啊<br>
-Chúng tôi đâu có biết<br>
+Chúng tôi đâu có biết<br><br>
 顾医生好<br>
-Chào bác sĩ Cố<br>
+Chào bác sĩ Cố<br><br>
 林建国患者的情况 我已经看过了<br>
-Tình trạng của bệnh nhân Lâm Kiến Quốc tôi đã xem qua<br>
+Tình trạng của bệnh nhân Lâm Kiến Quốc tôi đã xem qua<br><br>
 我建议你们做一次复查<br>
-Tôi đề nghị mọi người làm kiểm tra lại một lần<br>
+Tôi đề nghị mọi người làm kiểm tra lại một lần<br><br>
 为什么呀<br>
-Tại sao vậy<br>
+Tại sao vậy<br><br>
 我们之前那个胃镜检查不是已经做过了吗<br>
-Chúng tôi đã nội soi dạ dày rồi mà<br>
+Chúng tôi đã nội soi dạ dày rồi mà<br><br>
 是啊 顾医生<br>
-Đúng vậy, bác sĩ Cố<br>
+Đúng vậy, bác sĩ Cố<br><br>
 这到底怎么回事啊<br>
-Rốt cuộc là sao<br>
+Rốt cuộc là sao<br><br>
 你们不需要紧张<br>
-Mọi người không cần lo lắng<br>
+Mọi người không cần lo lắng<br><br>
 上一次的检查没有出任何的问题<br>
-Lần kiểm tra trước không có vấn đề gì<br>
+Lần kiểm tra trước không có vấn đề gì<br><br>
 获取的的确是炎细胞<br>
-Mẫu lấy được đúng là tế bào viêm<br>
+Mẫu lấy được đúng là tế bào viêm<br><br>
 所以出来的结果 也的确是胃溃疡<br>
-Vì vậy kết quả đúng là viêm loét dạ dày<br>
+Vì vậy kết quả đúng là viêm loét dạ dày<br><br>
 但是溃疡形态特殊<br>
-Nhưng hình dạng vết loét khá đặc biệt<br>
+Nhưng hình dạng vết loét khá đặc biệt<br><br>
 根据我的经验<br>
-Theo kinh nghiệm của tôi<br>
+Theo kinh nghiệm của tôi<br><br>
 我建议你们再做一次检查<br>
-Tôi khuyên nên kiểm tra lại lần nữa<br>
+Tôi khuyên nên kiểm tra lại lần nữa<br><br>
 是不是应该再<br>
-Có phải nên…<br>
+Có phải nên…<br><br>
 行了<br>
-Được rồi<br>
+Được rồi<br><br>
 你们操什么心呐都<br>
-Mọi người lo cái gì<br>
+Mọi người lo cái gì<br><br>
 我自己的身体 我还不清楚吗<br>
-Cơ thể tôi tôi còn không rõ sao<br>
+Cơ thể tôi tôi còn không rõ sao<br><br>
 我就是胃溃疡嘛<br>
-Tôi chỉ bị loét dạ dày thôi<br>
+Tôi chỉ bị loét dạ dày thôi<br><br>
 怎么了<br>
-Thì sao<br>
+Thì sao<br><br>
 高医生 来得正好<br>
-Bác sĩ Cao, đến đúng lúc<br>
+Bác sĩ Cao, đến đúng lúc<br><br>
 是这样啊 你是一直负责我们家老林的<br>
-Cô là người phụ trách bố tôi từ trước tới giờ<br>
+Cô là người phụ trách bố tôi từ trước tới giờ<br><br>
 您跟我们说明白了<br>
-Cô giải thích rõ cho chúng tôi đi<br>
+Cô giải thích rõ cho chúng tôi đi<br><br>
 为什么又要重新做检查呢<br>
-Tại sao lại phải kiểm tra lại<br>
+Tại sao lại phải kiểm tra lại<br><br>
 顾医生之所以让你们再做一次检查<br>
-Việc bác sĩ Cố yêu cầu kiểm tra lại<br>
+Việc bác sĩ Cố yêu cầu kiểm tra lại<br><br>
 是出于更严谨的考虑以免病情恶化<br>
-là vì muốn cẩn thận hơn, tránh bệnh tình xấu đi<br>
+là vì muốn cẩn thận hơn, tránh bệnh tình xấu đi<br><br>
 不用了 开点药就行 我不入院<br>
-Không cần, kê thuốc là được, tôi không nhập viện<br>
+Không cần, kê thuốc là được, tôi không nhập viện<br><br>
 高医生啊 你要不要再确定一下结果<br>
-Bác sĩ Cao, cô có cần xác nhận lại kết quả không<br>
+Bác sĩ Cao, cô có cần xác nhận lại kết quả không<br><br>
 也不能这位顾医生说什么就是什么吧<br>
-Không thể bác sĩ Cố nói gì cũng nghe theo chứ<br>
+Không thể bác sĩ Cố nói gì cũng nghe theo chứ<br><br>
 行了<br>
-Đủ rồi<br>
+Đủ rồi<br><br>
 对<br>
-Đúng<br>
+Đúng<br><br>
 听大夫的还听你们的<br>
-Nghe bác sĩ hay nghe mấy người<br>
+Nghe bác sĩ hay nghe mấy người<br><br>
 少说两句<br>
-Nói ít thôi<br>
+Nói ít thôi<br><br>
 我们在沟通啊<br>
-Chúng tôi đang trao đổi<br>
+Chúng tôi đang trao đổi<br><br>
 先出去 快点<br>
-Ra ngoài trước đi, nhanh lên<br>
+Ra ngoài trước đi, nhanh lên<br><br>
 走吧<br>
-Đi thôi<br>
+Đi thôi<br><br>
 不好意思啊 高医生<br>
-Xin lỗi bác sĩ Cao<br>
+Xin lỗi bác sĩ Cao<br><br>
 我们就听您的先住院治疗<br>
-Chúng tôi nghe theo anh, trước mắt nhập viện điều trị<br>
+Chúng tôi nghe theo anh, trước mắt nhập viện điều trị<br><br>
 谢谢啊 高医生<br>
-Cảm ơn bác sĩ Cao<br>
+Cảm ơn bác sĩ Cao<br><br>
 谢谢顾医生<br>
-Cảm ơn bác sĩ Cố<br>
+Cảm ơn bác sĩ Cố<br><br>
 </p>`
 },
    {
@@ -1880,72 +1880,72 @@ Cảm ơn bác sĩ Cố<br>
         ],
         content: `<p>
 顾魏<br>
-Cố Ngụy<br>
+Cố Ngụy<br><br>
 你让刚刚检查完的患者再检查一次<br>
-Cậu vừa mới khám xong lại yêu cầu bệnh nhân kiểm tra lại lần nữa à?<br>
+Cậu vừa mới khám xong lại yêu cầu bệnh nhân kiểm tra lại lần nữa à?<br><br>
 你在做什么<br>
-Cậu đang làm gì vậy?<br>
+Cậu đang làm gì vậy?<br><br>
 不好意思啊<br>
-Xin lỗi<br>
+Xin lỗi<br><br>
 我应该提前跟你说一声的<br>
-Đáng lẽ tôi nên báo trước với cậu một tiếng<br>
+Đáng lẽ tôi nên báo trước với cậu một tiếng<br><br>
 我只是不想放过任何一种可能<br>
-Tôi chỉ là không muốn bỏ sót bất kỳ khả năng nào<br>
+Tôi chỉ là không muốn bỏ sót bất kỳ khả năng nào<br><br>
 我知道你一向对病人认真负责<br>
-Tôi biết cậu luôn rất nghiêm túc và có trách nhiệm với bệnh nhân<br>
+Tôi biết cậu luôn rất nghiêm túc và có trách nhiệm với bệnh nhân<br><br>
 可下诊断是我这个主诊医生的职责<br>
-Nhưng việc đưa ra chẩn đoán là trách nhiệm của bác sĩ điều trị chính như tôi<br>
+Nhưng việc đưa ra chẩn đoán là trách nhiệm của bác sĩ điều trị chính như tôi<br><br>
 你无视诊断结果擅自来干涉是在拿你自己的前途开玩笑<br>
-Cậu phớt lờ kết quả chẩn đoán rồi tự ý can thiệp là đang đùa với tiền đồ của chính mình<br>
+Cậu phớt lờ kết quả chẩn đoán rồi tự ý can thiệp là đang đùa với tiền đồ của chính mình<br><br>
 我只是关心他的病情<br>
-Tôi chỉ đang quan tâm đến tình trạng của bệnh nhân thôi<br>
+Tôi chỉ đang quan tâm đến tình trạng của bệnh nhân thôi<br><br>
 胃溃疡形态特殊<br>
-Hình thái loét dạ dày lần này khá đặc biệt<br>
+Hình thái loét dạ dày lần này khá đặc biệt<br><br>
 这种情况我见过两次<br>
-Tôi đã từng gặp hai trường hợp tương tự<br>
+Tôi đã từng gặp hai trường hợp tương tự<br><br>
 有位同行出于好心让病人多做一次检查<br>
-Có một đồng nghiệp vì có lòng tốt nên cho bệnh nhân kiểm tra thêm một lần nữa<br>
+Có một đồng nghiệp vì có lòng tốt nên cho bệnh nhân kiểm tra thêm một lần nữa<br><br>
 病人没事<br>
-Bệnh nhân không có gì bất thường<br>
+Bệnh nhân không có gì bất thường<br><br>
 他去找记者媒体说医院骗钱<br>
-Nhưng họ lại đi tìm báo chí nói bệnh viện lừa tiền<br>
+Nhưng họ lại đi tìm báo chí nói bệnh viện lừa tiền<br><br>
 说医生只是为了赚提成<br>
-Nói rằng bác sĩ chỉ vì hoa hồng<br>
+Nói rằng bác sĩ chỉ vì hoa hồng<br><br>
 明明只是认真负责最后却受到处罚<br>
-Rõ ràng chỉ là làm việc nghiêm túc nhưng cuối cùng lại bị xử phạt<br>
+Rõ ràng chỉ là làm việc nghiêm túc nhưng cuối cùng lại bị xử phạt<br><br>
 顾魏<br>
-Cố Ngụy<br>
+Cố Ngụy<br><br>
 刚才那一家人明显对你就是有意见<br>
-Gia đình vừa rồi rõ ràng đang có thành kiến với cậu<br>
+Gia đình vừa rồi rõ ràng đang có thành kiến với cậu<br><br>
 万一他们出门就去投诉<br>
-Lỡ họ ra ngoài rồi đi khiếu nại thì sao?<br>
+Lỡ họ ra ngoài rồi đi khiếu nại thì sao?<br><br>
 你告诉我怎么办<br>
-Cậu nói tôi phải làm sao đây?<br>
+Cậu nói tôi phải làm sao đây?<br><br>
 高浠<br>
-Cao Hy<br>
+Cao Hy<br><br>
 你先别激动<br>
-Cậu bình tĩnh trước đã<br>
+Cậu bình tĩnh trước đã<br><br>
 我明白你的意思你放心<br>
-Tôi hiểu ý cậu, cậu yên tâm<br>
+Tôi hiểu ý cậu, cậu yên tâm<br><br>
 我只是给他们提出一个建议<br>
-Tôi chỉ đưa ra một lời khuyên thôi<br>
+Tôi chỉ đưa ra một lời khuyên thôi<br><br>
 他们怎么做是他们自己的决定<br>
-Họ làm thế nào là quyết định của họ<br>
+Họ làm thế nào là quyết định của họ<br><br>
 病人胃溃疡入院治疗这是应该的吧<br>
-Bệnh nhân nhập viện điều trị loét dạ dày là điều hợp lý mà đúng không?<br>
+Bệnh nhân nhập viện điều trị loét dạ dày là điều hợp lý mà đúng không?<br><br>
 顾魏<br>
-Cố Ngụy<br>
+Cố Ngụy<br><br>
 既然你对治病救人还有热情<br>
-Nếu cậu vẫn còn nhiệt huyết với việc cứu người chữa bệnh<br>
+Nếu cậu vẫn còn nhiệt huyết với việc cứu người chữa bệnh<br><br>
 转科的事情你要不要再考虑一下<br>
-Vậy chuyện chuyển khoa cậu có muốn suy nghĩ lại không?<br>
+Vậy chuyện chuyển khoa cậu có muốn suy nghĩ lại không?<br><br>
 我已经决定了<br>
-Tôi đã quyết định rồi<br>
+Tôi đã quyết định rồi<br><br>
 </p>`
     },
     {
     id: 17,
-    description: "天天的陷阱2 - CẠM BẪY NGỌT NGÀO",
+    description: "天天的陷阱2 - Cạm bẫy ngọt ngào",
     type: 'BUSINESS NEWS',
     type1: 'Business News',
     author: 'Sarah Johnson',
@@ -2043,7 +2043,7 @@ Tôi đã quyết định rồi<br>
 },
     {
     id: 18,
-    description: "陪你一起好好吃饭 - CÙNG ANH ĂN MỘT BỮA NGON",
+    description: "陪你一起好好吃饭 - Cùng anh ăn một bữa ngon",
     type: 'BUSINESS NEWS',
     type1: 'Business News',
     author: 'Robert Chang',
@@ -2052,18 +2052,18 @@ Tôi đã quyết định rồi<br>
     
     video: "https://drive.google.com/file/d/1MZwtJwFZ8nivDyqft79UtvSq8nyfQWX1/preview",
     vocabulary: [
-    //{ word: "蒜 /suàn/ (名)", meaning: "tỏi" },
+    { word: "蒜 /suàn/ (名)", meaning: "tỏi" },
     { word: "切片 /qiē piàn/ (动)", meaning: "cắt lát" },
     { word: "煸香 /biān xiāng/ (动)", meaning: "phi thơm (xào nhẹ đến khi thơm)" },
     { word: "葱末 /cōng mò/ (名)", meaning: "hành lá băm nhỏ" },
     { word: "小辣椒 /xiǎo là jiāo/ (名)", meaning: "ớt nhỏ" },
     { word: "煎炒 /jiān chǎo/ (动)", meaning: "chiên xào" },
-    //{ word: "金黄 /jīn huáng/ (形)", meaning: "vàng óng ả" },
+    { word: "金黄 /jīn huáng/ (形)", meaning: "vàng óng ả" },
     { word: "花椒 /huā jiāo/ (名)", meaning: "hoa tiêu (tiêu Tứ Xuyên)" },
     { word: "八角 /bā jiǎo/ (名)", meaning: "hoa hồi" },
     { word: "老抽 /lǎo chōu/ (名)", meaning: "xì dầu màu đậm" },
     { word: "生抽 /shēng chōu/ (名)", meaning: "xì dầu nhạt" },
-    //{ word: "料酒 /liào jiǔ/ (名)", meaning: "rượu nấu ăn" }
+    { word: "料酒 /liào jiǔ/ (名)", meaning: "rượu nấu ăn" }
 ],
     content: `
         都这样了<br>
@@ -2147,7 +2147,7 @@ Tôi đã quyết định rồi<br>
 },
     {
     id: 19,
-    description: "欢乐颂2 - HOAN LẠC TỤNG PHẦN 2",
+    description: "欢乐颂2 - Hoan lạc tụng phần 2",
     type: 'BUSINESS NEWS',
     type1: 'Business News',
     author: 'Linda Martinez',
@@ -2159,15 +2159,15 @@ Tôi đã quyết định rồi<br>
     { word: "烹饪 /pēngrèn/ (动)", meaning: "nấu nướng" },
     { word: "该不会 /gāi bú huì/ (副)", meaning: "chẳng lẽ (phỏng đoán)" },
     { word: "洗手作羹汤 /xǐshǒu zuò gēng tāng/ (动)", meaning: "vào bếp nấu ăn (cách nói trang trọng)" },
-    //{ word: "碰到 /pèngdào/ (动)", meaning: "gặp phải" },
+    { word: "碰到 /pèngdào/ (动)", meaning: "gặp phải" },
     { word: "菜系 /càixì/ (名)", meaning: "hệ ẩm thực, trường phái món ăn" },
     { word: "煮粥 /zhǔ zhōu/ (动)", meaning: "nấu cháo" },
     { word: "煲汤 /bāo tāng/ (动)", meaning: "hầm canh" },
-    //{ word: "炒菜 /chǎo cài/ (动)", meaning: "xào món ăn" },
-    //{ word: "家常菜 /jiācháng cài/ (名)", meaning: "món ăn gia đình" },
+    { word: "炒菜 /chǎo cài/ (动)", meaning: "xào món ăn" },
+    { word: "家常菜 /jiācháng cài/ (名)", meaning: "món ăn gia đình" },
     { word: "耗在 /hào zài/ (动)", meaning: "tiêu tốn (thời gian vào việc gì)" },
     { word: "实惠 /shíhuì/ (形)", meaning: "tiện lợi, kinh tế" },
-    //{ word: "保姆 /bǎomǔ/ (名)", meaning: "người giúp việc" },
+    { word: "保姆 /bǎomǔ/ (名)", meaning: "người giúp việc" },
     { word: "叫外卖 /jiào wàimài/ (动)", meaning: "gọi đồ ăn ngoài" }
 ],
 
@@ -2312,7 +2312,7 @@ Thì thà kiếm tiền thuê giúp việc hoặc gọi đồ ăn ngoài<br>
 },
     {
     id: 20,
-    description: "玫瑰的故事  - CÂU CHUYỆN HOA HỒNG",
+    description: "玫瑰的故事  - Câu chuyện hoa hồng",
     type: 'POLITICS',
     type1: 'Politics',
     author: 'Daniel Foster',
@@ -2539,20 +2539,20 @@ Lần sau em sẽ chuẩn bị kỹ hơn<br>
             { word: "首席执行官 /shǒuxí zhíxíngguān/ (名)", meaning: "tổng giám đốc điều hành (CEO)" },
             { word: "座右铭 /zuòyòumíng/ (名)", meaning: "châm ngôn, khẩu hiệu cá nhân" },
             { word: "搜 /sōu/ (动)", meaning: "tìm kiếm" },
-            //{ word: "面试 /miànshì/ (动/名)", meaning: "phỏng vấn" },
+            { word: "面试 /miànshì/ (动/名)", meaning: "phỏng vấn" },
             { word: "做功课 /zuò gōngkè/ (动)", meaning: "chuẩn bị trước, tìm hiểu trước" },
-            //{ word: "实地考察 /shídì kǎochá/ (动)", meaning: "khảo sát thực tế" },
-            //{ word: "老化 /lǎohuà/ (动)", meaning: "xuống cấp, lão hóa" },
-            //{ word: "保安 /bǎo’ān/ (名)", meaning: "bảo vệ" },
+            { word: "实地考察 /shídì kǎochá/ (动)", meaning: "khảo sát thực tế" },
+            { word: "老化 /lǎohuà/ (动)", meaning: "xuống cấp, lão hóa" },
+            { word: "保安 /bǎo’ān/ (名)", meaning: "bảo vệ" },
             { word: "保洁 /bǎojié/ (名)", meaning: "nhân viên vệ sinh" },
-            //{ word: "委托 /wěituō/ (动)", meaning: "ủy thác, giao phó" },
-            //{ word: "电商 /diànshāng/ (名)", meaning: "thương mại điện tử" },
-            //{ word: "实体店 /shítǐ diàn/ (名)", meaning: "cửa hàng trực tiếp" },
+            { word: "委托 /wěituō/ (动)", meaning: "ủy thác, giao phó" },
+            { word: "电商 /diànshāng/ (名)", meaning: "thương mại điện tử" },
+            { word: "实体店 /shítǐ diàn/ (名)", meaning: "cửa hàng trực tiếp" },
             { word: "走下坡路 /zǒu xiàpōlù/ (动)", meaning: "đi xuống, suy thoái" },
-            //{ word: "定位 /dìngwèi/ (名/动)", meaning: "định vị" },
+            { word: "定位 /dìngwèi/ (名/动)", meaning: "định vị" },
             { word: "假大空 /jiǎ dà kōng/ (形)", meaning: "sáo rỗng, hình thức" },
             { word: "一眼望到头 /yì yǎn wàng dào tóu/ (动)", meaning: "nhìn là thấy hết tương lai" },
-            //{ word: "一成不变 /yì chéng bù biàn/ (成)", meaning: "không thay đổi, cứng nhắc" }
+            { word: "一成不变 /yì chéng bù biàn/ (成)", meaning: "không thay đổi, cứng nhắc" }
         ],
         content: `<p>
 这是我们的首席执行官<br>
@@ -2686,12 +2686,12 @@ Không muốn lặp lại những ngày tháng nhàm chán, không đổi<br>
     imgCaption: "Apple announces major AI integration across all devices",
     video: "https://drive.google.com/file/d/1waW1I4WHBERjyBW_KnHFCR4ajOPUcCcX/preview",
     vocabulary: [
-        //{ word: "毒物实验室 /dúwù shíyànshì/ (名)", meaning: "phòng thí nghiệm độc chất" },
+        { word: "毒物实验室 /dúwù shíyànshì/ (名)", meaning: "phòng thí nghiệm độc chất" },
         { word: "成像系统 /chéngxiàng xìtǒng/ (名)", meaning: "hệ thống tạo ảnh" },
         { word: "指纹 /zhǐwén/ (名)", meaning: "dấu vân tay" },
         { word: "显现 /xiǎnxiàn/ (动)", meaning: "làm hiện (dấu vết)" },
         { word: "生物技术 /shēngwù jìshù/ (名)", meaning: "công nghệ sinh học" },
-        //{ word: "法医 /fǎyī/ (名)", meaning: "pháp y" },
+        { word: "法医 /fǎyī/ (名)", meaning: "pháp y" },
         { word: "破格录取 /pògé lùqǔ/ (动)", meaning: "đặc cách tuyển dụng" },
         { word: "测谎 /cèhuǎng/ (动)", meaning: "kiểm tra nói dối" },
         { word: "痕迹 /hénjì/ (名)", meaning: "dấu vết" },
@@ -2700,111 +2700,111 @@ Không muốn lặp lại những ngày tháng nhàm chán, không đổi<br>
     ],
     content: `<p>
 这里是毒物实验室<br>
-Đây là phòng thí nghiệm độc chất<br>
+Đây là phòng thí nghiệm độc chất<br><br>
 反射式紫外线成像系统检测仪，指纹污损热显仪<br>
-Máy kiểm tra hệ thống tạo ảnh tia cực tím phản xạ, thiết bị hiển thị nhiệt dấu vân tay bị hỏng<br>
+Máy kiểm tra hệ thống tạo ảnh tia cực tím phản xạ, thiết bị hiển thị nhiệt dấu vân tay bị hỏng<br><br>
 这两款都是世界上最顶尖的指纹显现仪器<br>
-Hai thiết bị này đều là máy hiển thị dấu vân tay hàng đầu thế giới<br>
+Hai thiết bị này đều là máy hiển thị dấu vân tay hàng đầu thế giới<br><br>
 我们还用生物技术显现指纹<br>
-Chúng tôi còn sử dụng công nghệ sinh học để làm hiện dấu vân tay<br>
+Chúng tôi còn sử dụng công nghệ sinh học để làm hiện dấu vân tay<br><br>
 荧光免疫标记法，核酸体适配技术<br>
-Phương pháp đánh dấu miễn dịch huỳnh quang, công nghệ nhận diện axit nucleic<br>
+Phương pháp đánh dấu miễn dịch huỳnh quang, công nghệ nhận diện axit nucleic<br><br>
 不错<br>
-Không tệ<br>
+Không tệ<br><br>
 这里是法医实验室<br>
-Đây là phòng pháp y<br>
+Đây là phòng pháp y<br><br>
 负责人江旎<br>
-Người phụ trách là Giang Nỉ<br>
+Người phụ trách là Giang Nỉ<br><br>
 三年以来全省技术大比武法医组冠军<br>
-Ba năm liền là quán quân nhóm pháp y toàn tỉnh<br>
+Ba năm liền là quán quân nhóm pháp y toàn tỉnh<br><br>
 外号江一刀<br>
-Biệt danh là “Giang Nhất Đao”<br>
+Biệt danh là “Giang Nhất Đao”<br><br>
 我姐们儿<br>
-Chị em thân thiết của tôi<br>
+Chị em thân thiết của tôi<br><br>
 林岚 把你的朋友带出去<br>
-Lâm Lam, đưa bạn của cô ra ngoài đi<br>
+Lâm Lam, đưa bạn của cô ra ngoài đi<br><br>
 电子数据实验室<br>
-Phòng dữ liệu điện tử<br>
+Phòng dữ liệu điện tử<br><br>
 负责人 逯超群<br>
-Người phụ trách là Lục Siêu Quần<br>
+Người phụ trách là Lục Siêu Quần<br><br>
 整个鉴定中心年龄最小的实验室负责人<br>
-Là trưởng phòng trẻ nhất của toàn trung tâm giám định<br>
+Là trưởng phòng trẻ nhất của toàn trung tâm giám định<br><br>
 少年天才<br>
-Thiên tài trẻ<br>
+Thiên tài trẻ<br><br>
 当年被中心领导破格录取<br>
-Năm đó được lãnh đạo đặc cách tuyển dụng<br>
+Năm đó được lãnh đạo đặc cách tuyển dụng<br><br>
 慧眼识英<br>
-Đúng là có con mắt nhìn người tài<br>
+Đúng là có con mắt nhìn người tài<br><br>
 他应该还有个助手 叫季晴晴<br>
-Cậu ấy còn có một trợ lý tên là Quý Tình Tình<br>
+Cậu ấy còn có một trợ lý tên là Quý Tình Tình<br><br>
 走了<br>
-Đi đây<br>
+Đi đây<br><br>
 幸会<br>
-hân hạnh được gặp<br>
+hân hạnh được gặp<br><br>
 心理实验室<br>
-Phòng thí nghiệm tâm lý<br>
+Phòng thí nghiệm tâm lý<br><br>
 知道这个是谁吗<br>
-Know who this is?<br>
+Know who this is?<br><br>
 杨波<br>
-Dương Ba<br>
+Dương Ba<br><br>
 年轻一代测谎权威<br>
-Chuyên gia phát hiện nói dối hàng đầu trong thế hệ trẻ<br>
+Chuyên gia phát hiện nói dối hàng đầu trong thế hệ trẻ<br><br>
 幸会<br>
-hân hạnh được gặp<br>
+hân hạnh được gặp<br><br>
 波波 村里来新人了<br>
-Ba Ba trong làng có người mới tới rồi<br>
+Ba Ba trong làng có người mới tới rồi<br><br>
 山风大哥 刚才是谁呀<br>
-Anh Sơn Phong, người lúc nãy là ai vậy<br>
+Anh Sơn Phong, người lúc nãy là ai vậy<br><br>
 山风大哥<br>
-Anh Sơn Phong<br>
+Anh Sơn Phong<br><br>
 那边是茶水间<br>
-Bên kia là phòng trà nước<br>
+Bên kia là phòng trà nước<br><br>
 这一块 is 主要技术人员的公共区<br>
-Khu này là khu sinh hoạt chung của nhân viên kỹ thuật<br>
+Khu này là khu sinh hoạt chung của nhân viên kỹ thuật<br><br>
 这边是会议室<br>
-Bên này là phòng họp<br>
+Bên này là phòng họp<br><br>
 不开会的时候穿便服就可以了<br>
-Khi không họp thì mặc đồ thường là được<br>
+Khi không họp thì mặc đồ thường là được<br><br>
 这里是声像实验室<br>
-Đây là phòng giám định âm thanh – hình ảnh<br>
+Đây là phòng giám định âm thanh – hình ảnh<br><br>
 何顾<br>
-Hà Cố<br>
+Hà Cố<br><br>
 从事声像技术鉴定工作多年<br>
-Đã làm công tác giám định âm thanh – hình ảnh nhiều năm<br>
+Đã làm công tác giám định âm thanh – hình ảnh nhiều năm<br><br>
 业内非常有名气<br>
-Rất có tiếng trong ngành<br>
+Rất có tiếng trong ngành<br><br>
 人称何大拿<br>
-Được gọi là Hà Đại Nã<br>
+Được gọi là Hà Đại Nã<br><br>
 别打扰人家工作<br>
-Đừng làm phiền người ta làm việc<br>
+Đừng làm phiền người ta làm việc<br><br>
 我们涵江市检察院司法鉴定中心<br>
-Trung tâm giám định tư pháp Viện kiểm sát thành phố Hàm Giang của chúng tôi<br>
+Trung tâm giám định tư pháp Viện kiểm sát thành phố Hàm Giang của chúng tôi<br><br>
 包含了法医、心理、声像、电子数据、痕迹等几大实验室<br>
-Bao gồm các phòng: pháp y, tâm lý, âm thanh – hình ảnh, dữ liệu điện tử, dấu vết…<br>
+Bao gồm các phòng: pháp y, tâm lý, âm thanh – hình ảnh, dữ liệu điện tử, dấu vết…<br><br>
 而且我们还是全省<br>
-Hơn nữa chúng tôi còn là<br>
+Hơn nữa chúng tôi còn là<br><br>
 全省最高规格的司法鉴定中心<br>
-trung tâm giám định tư pháp có tiêu chuẩn cao nhất toàn tỉnh<br>
+trung tâm giám định tư pháp có tiêu chuẩn cao nhất toàn tỉnh<br><br>
 拥有全国最顶级的鉴定设备<br>
-Sở hữu thiết bị giám định hàng đầu cả nước<br>
+Sở hữu thiết bị giám định hàng đầu cả nước<br><br>
 我来之前已经做过详细的功课了<br>
-Trước khi đến tôi đã tìm hiểu rất kỹ rồi<br>
+Trước khi đến tôi đã tìm hiểu rất kỹ rồi<br><br>
 那我先自我介绍一下<br>
-Vậy tôi xin tự giới thiệu trước<br>
+Vậy tôi xin tự giới thiệu trước<br><br>
 林岚 毕业于政法大学痕迹学专业<br>
-Lâm Lam, tốt nghiệp chuyên ngành dấu vết học Đại học Chính Pháp<br>
+Lâm Lam, tốt nghiệp chuyên ngành dấu vết học Đại học Chính Pháp<br><br>
 从事痕检工作六年<br>
-Đã làm công tác giám định dấu vết 6 năm<br>
+Đã làm công tác giám định dấu vết 6 năm<br><br>
 毕业之后<br>
-Sau khi tốt nghiệp<br>
+Sau khi tốt nghiệp<br><br>
 进入涵江市公安局刑侦大队实习<br>
-vào thực tập tại đội hình sự Công an thành phố Hàm Giang<br>
+vào thực tập tại đội hình sự Công an thành phố Hàm Giang<br><br>
 再之后进入涵江市检察院司法鉴定中心工作<br>
-sau đó làm việc tại trung tâm giám định tư pháp Viện kiểm sát Hàm Giang<br>
+sau đó làm việc tại trung tâm giám định tư pháp Viện kiểm sát Hàm Giang<br><br>
 你全都知道了<br>
-Anh biết hết rồi<br>
+Anh biết hết rồi<br><br>
 还要我介绍干嘛呢<br>
-còn cần tôi giới thiệu làm gì nữa<br>
+còn cần tôi giới thiệu làm gì nữa<br><br>
 </p>`
 },
     {
@@ -2820,14 +2820,14 @@ còn cần tôi giới thiệu làm gì nữa<br>
         { word: "破解 /pòjiě/ (动)", meaning: "hack, bẻ khóa" },
         { word: "防止 /fángzhǐ/ (动)", meaning: "phòng tránh" },
         { word: "加密 /jiāmì/ (动)", meaning: "mã hóa" },
-        //{ word: "密钥 /mìyào/ (名)", meaning: "khóa bảo mật" },
+        { word: "密钥 /mìyào/ (名)", meaning: "khóa bảo mật" },
         { word: "专利 /zhuānlì/ (名)", meaning: "bằng sáng chế" },
-        //{ word: "本地 /běndì/ (名/形)", meaning: "cục bộ, tại máy" },
+        { word: "本地 /běndì/ (名/形)", meaning: "cục bộ, tại máy" },
         { word: "静态 /jìngtài/ (形)", meaning: "tĩnh" },
         { word: "黑进 /hēijìn/ (动)", meaning: "xâm nhập (hack vào)" },
         { word: "驱动器 /qūdòngqì/ (名)", meaning: "ổ đĩa" },
         { word: "盘符 /pánfú/ (名)", meaning: "ký hiệu ổ đĩa" },
-        //{ word: "来源 /láiyuán/ (名)", meaning: "nguồn gốc" },
+        { word: "来源 /láiyuán/ (名)", meaning: "nguồn gốc" },
         { word: "小号 /xiǎohào/ (名)", meaning: "tài khoản phụ" }
     ],
     content: `<p>
@@ -2880,49 +2880,49 @@ Bạn gái anh ta ở kia kìa<br>
     ],
     content: `<p>
 老大杭州地下城没了<br>
-Lão đại, khu trú ẩn ngầm Hàng Châu mất rồi<br>
+Lão đại, khu trú ẩn ngầm Hàng Châu mất rồi<br><br>
 黄明<br>
-Hoàng Minh<br>
+Hoàng Minh<br><br>
 卸电池包<br>
-Tháo pin ra<br>
+Tháo pin ra<br><br>
 这孩子是活活冻死的<br>
-Đứa nhỏ này bị chết cóng<br>
+Đứa nhỏ này bị chết cóng<br><br>
 黄明<br>
-Hoàng Minh<br>
+Hoàng Minh<br><br>
 黄明<br>
-Hoàng Minh<br>
+Hoàng Minh<br><br>
 检查“火石”状态继续前进<br>
-Kiểm tra trạng thái “Hỏa Thạch”, tiếp tục tiến lên<br>
+Kiểm tra trạng thái “Hỏa Thạch”, tiếp tục tiến lên<br><br>
 老大<br>
-Lão đại<br>
+Lão đại<br><br>
 我们已经没有目标了<br>
-Chúng ta đã không còn mục tiêu nữa<br>
+Chúng ta đã không còn mục tiêu nữa<br><br>
 继续前进听不懂吗<br>
-Tiếp tục tiến lên, không hiểu sao<br>
+Tiếp tục tiến lên, không hiểu sao<br><br>
 再走下去毫无意义<br>
-Đi tiếp nữa cũng không còn ý nghĩa gì<br>
+Đi tiếp nữa cũng không còn ý nghĩa gì<br><br>
 这颗“火石”是杭州三十五万人的命<br>
-“Viên Hỏa Thạch” này là mạng sống của 350.000 người Hàng Châu<br>
+“Viên Hỏa Thạch” này là mạng sống của 350.000 người Hàng Châu<br><br>
 可是他们已经牺牲了<br>
-Nhưng họ đã hy sinh rồi<br>
+Nhưng họ đã hy sinh rồi<br><br>
 周倩<br>
-Chu Thiến<br>
+Chu Thiến<br><br>
 不能再死人了<br>
-Không thể chết thêm người nữa<br>
+Không thể chết thêm người nữa<br><br>
 是不能再死人了<br>
-Đúng, không thể chết thêm nữa<br>
+Đúng, không thể chết thêm nữa<br><br>
 可是老韩刚子黄明<br>
-Nhưng lão Hàn, Cương Tử, Hoàng Minh…<br>
+Nhưng lão Hàn, Cương Tử, Hoàng Minh…<br><br>
 还有以前救援队所有人全他妈白死了<br>
-Cả đội cứu hộ trước đây… tất cả đều chết uổng rồi<br>
+Cả đội cứu hộ trước đây… tất cả đều chết uổng rồi<br><br>
 地球三十五亿人<br>
-3,5 tỷ người trên Trái Đất<br>
+3,5 tỷ người trên Trái Đất<br><br>
 我老婆孩子全他妈白死了<br>
-Vợ con tôi… cũng đều chết uổng rồi<br>
+Vợ con tôi… cũng đều chết uổng rồi<br><br>
 老大<br>
-Lão đại<br>
+Lão đại<br><br>
 已到达救援信号位置<br>
-Đã đến vị trí tín hiệu cứu hộ<br>
+Đã đến vị trí tín hiệu cứu hộ<br><br>
 </p>`
 },
     {
@@ -2935,50 +2935,50 @@ Lão đại<br>
         imgCaption: "Federal Reserve study on AI's impact on employment",
         video: "https://drive.google.com/file/d/1htxemPciopq9QbvwjcSezHGrazzk_ExK/preview",
         vocabulary: [
-            //{ word: "发动机 /fādòngjī/ (名)", meaning: "động cơ" },
+            { word: "发动机 /fādòngjī/ (名)", meaning: "động cơ" },
             { word: "并网 /bìngwǎng/ (动)", meaning: "kết nối vào hệ thống (mạng lưới)" },
             { word: "覆写 /fùxiě/ (动)", meaning: "ghi đè" },
-            //{ word: "预计 /yùjì/ (动)", meaning: "dự kiến" },
+            { word: "预计 /yùjì/ (动)", meaning: "dự kiến" },
             { word: "残骸 /cánhái/ (名)", meaning: "mảnh vỡ, xác (tàu, xe, thiên thạch)" },
             { word: "掠过 /lüèguò/ (动)", meaning: "lướt qua" },
             { word: "跨越 /kuàyuè/ (动)", meaning: "vượt qua" },
-            //{ word: "当下 /dāngxià/ (名)", meaning: "hiện tại, ngay lúc này" },
+            { word: "当下 /dāngxià/ (名)", meaning: "hiện tại, ngay lúc này" },
             { word: "存亡 /cúnwáng/ (名)", meaning: "sống còn" },
             { word: "枝头 /zhītóu/ (名)", meaning: "đầu cành" }
         ],
         content: `<p>
 我们的人一定可以完成任务<br>
-Người của chúng ta nhất định có thể hoàn thành nhiệm vụ<br>
+Người của chúng ta nhất định có thể hoàn thành nhiệm vụ<br><br>
 爸爸<br>
-Ba<br>
+Ba<br><br>
 全球发动机并网成功<br>
-Động cơ toàn cầu đã kết nối thành công<br>
+Động cơ toàn cầu đã kết nối thành công<br><br>
 北京<br>
-Bắc Kinh<br>
+Bắc Kinh<br><br>
 杜勒斯<br>
-Dulles<br>
+Dulles<br><br>
 东京<br>
-Tokyo<br>
+Tokyo<br><br>
 覆写开始<br>
-Bắt đầu ghi đè<br>
+Bắt đầu ghi đè<br><br>
 我们成功了<br>
-Chúng ta đã thành công rồi<br>
+Chúng ta đã thành công rồi<br><br>
 地球成功点火<br>
-Trái Đất đã được kích hoạt thành công<br>
+Trái Đất đã được kích hoạt thành công<br><br>
 预计是四分钟后月球残骸将掠过地球<br>
-Dự kiến sau bốn phút mảnh vỡ Mặt Trăng sẽ lướt qua Trái Đất<br>
+Dự kiến sau bốn phút mảnh vỡ Mặt Trăng sẽ lướt qua Trái Đất<br><br>
 我相信人类的勇气可以跨越时间<br>
-Tôi tin rằng lòng dũng cảm của loài người có thể vượt qua thời gian<br>
+Tôi tin rằng lòng dũng cảm của loài người có thể vượt qua thời gian<br><br>
 跨越每一个历史当下和未来<br>
-Vượt qua từng khoảnh khắc của lịch sử, hiện tại và tương lai<br>
+Vượt qua từng khoảnh khắc của lịch sử, hiện tại và tương lai<br><br>
 我相信我们的人一定可以完成任务<br>
-Tôi tin rằng người của chúng ta nhất định có thể hoàn thành nhiệm vụ<br>
+Tôi tin rằng người của chúng ta nhất định có thể hoàn thành nhiệm vụ<br><br>
 不论虚实，不计存亡<br>
-Bất kể thật hay giả, không màng sống chết<br>
+Bất kể thật hay giả, không màng sống chết<br><br>
 我相信会再次看到蓝天<br>
-Tôi tin rằng sẽ lại được nhìn thấy bầu trời xanh<br>
+Tôi tin rằng sẽ lại được nhìn thấy bầu trời xanh<br><br>
 鲜花挂满枝头<br>
-Hoa sẽ lại nở rộ đầy cành<br>
+Hoa sẽ lại nở rộ đầy cành<br><br>
 </p>`
 },
     {
@@ -3058,7 +3058,7 @@ Các cậu vốn dĩ chẳng hề thật lòng quan tâm đến tôi… cậu kh
 },
     {
         id: 28,
-        description: "爱你 - YÊU EM",
+        description: "爱你 - Yêu em",
         type: 'TECHNOLOGY',
         type1: 'Tech and Innovation',
         author: 'Tom Davidson',
@@ -3068,18 +3068,18 @@ Các cậu vốn dĩ chẳng hề thật lòng quan tâm đến tôi… cậu kh
         vocabulary: [
             { word: "香囊 /xiāngnáng/ (名)", meaning: "túi thơm" },
             { word: "药方 /yàofāng/ (名)", meaning: "đơn thuốc" },
-            //{ word: "开药方 /kāi yàofāng/ (动)", meaning: "kê đơn thuốc" },
-            //{ word: "下毒 /xià dú/ (动)", meaning: "đầu độc" },
+            { word: "开药方 /kāi yàofāng/ (动)", meaning: "kê đơn thuốc" },
+            { word: "下毒 /xià dú/ (动)", meaning: "đầu độc" },
             { word: "质疑 /zhìyí/ (动)", meaning: "nghi ngờ, chất vấn" },
-            //{ word: "医术 /yīshù/ (名)", meaning: "y thuật" },
+            { word: "医术 /yīshù/ (名)", meaning: "y thuật" },
             { word: "药效 /yàoxiào/ (名)", meaning: "hiệu quả của thuốc" },
             { word: "清热 /qīngrè/ (动)", meaning: "thanh nhiệt" },
             { word: "祛湿 /qūshī/ (动)", meaning: "trừ thấp (khử ẩm)" },
-            //{ word: "实打实 /shídǎshí/ (形)", meaning: "thật sự, thực tế (nhấn mạnh)" },
+            { word: "实打实 /shídǎshí/ (形)", meaning: "thật sự, thực tế (nhấn mạnh)" },
             { word: "吞 /tūn/ (动)", meaning: "nuốt" },
-            //{ word: "刻苦 /kèkǔ/ (形)", meaning: "chăm chỉ, chịu khó" },
+            { word: "刻苦 /kèkǔ/ (形)", meaning: "chăm chỉ, chịu khó" },
             { word: "黄连 /huánglián/ (名)", meaning: "hoàng liên" },
-            //{ word: "焦栀子 /jiāo zhīzǐ/ (名)", meaning: "tiêu chi tử" }
+            { word: "焦栀子 /jiāo zhīzǐ/ (名)", meaning: "tiêu chi tử" }
         ],
         content: `<p>
 你的香囊应该没有味道了吗？<br>
@@ -3202,7 +3202,7 @@ Cô chắc chưa<br><br>
 },
     {
     id: 29,
-    description: "乌蒙深处 - SÂU TRONG Ô MÔNG",
+    description: "乌蒙深处 - Sâu trong Ô Mông",
     type: 'MONEY & MARKETS',
     type1: 'Money and Markets',
     author: 'Rebecca Foster',
@@ -3255,7 +3255,7 @@ Cô chắc chưa<br><br>
 },
     {
     id: 30,
-    description: "我，喜欢你 - YÊU EM TỪ DẠ DÀY",
+    description: "我，喜欢你 - Yêu em từ dạ dày",
     type: 'BUSINESS NEWS',
     type1: 'Business News',
     author: 'Maria Gonzalez',
@@ -3371,21 +3371,21 @@ Cô chắc chưa<br><br>
         imgCaption: "Voter turnout reaches record high in special elections nationwide",
         video: "https://drive.google.com/file/d/1swbb9ctSp7jeEtVRfR6-1VmHf2zNY_Ew/preview",
         vocabulary: [
-            //{ word: "规模 /guīmó/ (名)", meaning: "quy mô" },
+            { word: "规模 /guīmó/ (名)", meaning: "quy mô" },
             { word: "业绩 /yèjì/ (名)", meaning: "thành tích kinh doanh" },
             { word: "创意 /chuàngyì/ (名)", meaning: "ý tưởng sáng tạo" },
-            //{ word: "高层人士 /gāocéng rénshì/ (名)", meaning: "lãnh đạo cấp cao" },
+            { word: "高层人士 /gāocéng rénshì/ (名)", meaning: "lãnh đạo cấp cao" },
             { word: "收购 /shōugòu/ (动)", meaning: "thâu tóm, mua lại" },
             { word: "并购 /bìnggòu/ (动/名)", meaning: "sáp nhập & mua lại" },
             { word: "金额 /jīn’é/ (名)", meaning: "số tiền" },
-            //{ word: "评估 /pínggū/ (动)", meaning: "đánh giá" },
-            //{ word: "报表 /bàobiǎo/ (名)", meaning: "bảng báo cáo" },
+            { word: "评估 /pínggū/ (动)", meaning: "đánh giá" },
+            { word: "报表 /bàobiǎo/ (名)", meaning: "bảng báo cáo" },
             { word: "签约 /qiānyuē/ (动)", meaning: "ký hợp đồng" },
             { word: "怪罪 /guàizuì/ (动)", meaning: "trách móc, quy trách nhiệm" },
             { word: "当务之急 /dāngwù zhī jí/ (名)", meaning: "việc cấp bách" },
             { word: "打断 /dǎduàn/ (动)", meaning: "cắt ngang, gián đoạn" },
-            //{ word: "补偿 /bǔcháng/ (动)", meaning: "bồi thường" },
-            //{ word: "危急 /wēijí/ (形)", meaning: "nguy cấp" }
+            { word: "补偿 /bǔcháng/ (动)", meaning: "bồi thường" },
+            { word: "危急 /wēijí/ (形)", meaning: "nguy cấp" }
         ],
         content: `<p>
 新动这家公司呢<br>
@@ -3545,7 +3545,7 @@ Vẫn phải tái khám à?<br><br>
     // ==== Nội dung chi tiết cho 20 bản tin mới (id 34 → 53) ====
     {
     id: 34,
-    description: "去有风的地方 - ĐI ĐẾN NƠI CÓ GIÓ",
+    description: "去有风的地方 - Đi đến nơi có gió",
     type2: 'Latest',
     author: 'Gemini',
     img: "../assets/img/img35.png",
@@ -3554,28 +3554,28 @@ Vẫn phải tái khám à?<br><br>
     video: "https://drive.google.com/file/d/1EttzimqcJuQepGCFiVb-reePrQ8lBvAt/preview",
     vocabulary: [
         { word: "线头 /xiàntóu/", meaning: "đầu chỉ" },
-        //{ word: "添麻烦 /tiān máfan/", meaning: "làm phiền" },
-        //{ word: "忙活 /mánghuo/", meaning: "bận rộn, tất bật" },
+        { word: "添麻烦 /tiān máfan/", meaning: "làm phiền" },
+        { word: "忙活 /mánghuo/", meaning: "bận rộn, tất bật" },
         { word: "绣坊 /xiùfāng/", meaning: "xưởng thêu" },
         { word: "非遗 /fēiyí/", meaning: "di sản văn hóa phi vật thể" },
-        //{ word: "展览 /zhǎnlǎn/", meaning: "triển lãm" },
-        //{ word: "博览会 /bólǎnhuì/", meaning: "hội chợ triển lãm" },
-        //{ word: "大型 /dàxíng/", meaning: "quy mô lớn" },
+        { word: "展览 /zhǎnlǎn/", meaning: "triển lãm" },
+        { word: "博览会 /bólǎnhuì/", meaning: "hội chợ triển lãm" },
+        { word: "大型 /dàxíng/", meaning: "quy mô lớn" },
         { word: "摊位 /tānwèi/", meaning: "gian hàng" },
         { word: "绣品 /xiùpǐn/", meaning: "sản phẩm thêu" },
         { word: "扎染 /zhārǎn/", meaning: "nhuộm buộc (tie-dye)" },
-        //{ word: "推广 /tuīguǎng/", meaning: "quảng bá" },
+        { word: "推广 /tuīguǎng/", meaning: "quảng bá" },
         { word: "手艺人 /shǒuyìrén/", meaning: "người làm nghề thủ công" },
         { word: "工艺品 /gōngyìpǐn/", meaning: "đồ thủ công mỹ nghệ" },
         { word: "淘汰 /táotài/", meaning: "đào thải" },
-        //{ word: "民间 /mínjiān/", meaning: "dân gian" },
-        //{ word: "技艺 /jìyì/", meaning: "kỹ nghệ" },
+        { word: "民间 /mínjiān/", meaning: "dân gian" },
+        { word: "技艺 /jìyì/", meaning: "kỹ nghệ" },
         { word: "传承 /chuánchéng/", meaning: "truyền thừa" },
-        //{ word: "徒弟 /túdì/", meaning: "đệ tử" },
-        //{ word: "功德圆满 /gōngdé yuánmǎn/", meaning: "công đức viên mãn" },
-        //{ word: "失传 /shīchuán/", meaning: "thất truyền" },
-        //{ word: "宣传 /xuānchuán/", meaning: "tuyên truyền, quảng bá" },
-        //{ word: "年轻一代 /niánqīng yídài/", meaning: "thế hệ trẻ" }
+        { word: "徒弟 /túdì/", meaning: "đệ tử" },
+        { word: "功德圆满 /gōngdé yuánmǎn/", meaning: "công đức viên mãn" },
+        { word: "失传 /shīchuán/", meaning: "thất truyền" },
+        { word: "宣传 /xuānchuán/", meaning: "tuyên truyền, quảng bá" },
+        { word: "年轻一代 /niánqīng yídài/", meaning: "thế hệ trẻ" }
     ],
     content: `<p>
 这个线头剪掉<br>
@@ -3776,7 +3776,7 @@ Còn bây giờ phải nghĩ cách<br><br>
 },
     {
     id: 35,
-    description: "我不是购物狂 - TÔI KHÔNG NGHIỆN MUA SẮM",
+    description: "我不是购物狂 - Tôi không nghiện mua sắm",
     type: 'BUSINESS NEWS',
     type1: 'Money and Markets',
    // type2: 'Latest',
@@ -3826,7 +3826,7 @@ Còn bây giờ phải nghĩ cách<br><br>
 },
     {
         id: 36,
-        description: "后浪 - Hậu Lãng",
+        description: "后浪 - Hậu lãng",
      //   type: 'TECHNOLOGY',
      //   type1: 'Tech and Innovation',
         type2: 'Latest',
@@ -3837,12 +3837,12 @@ Còn bây giờ phải nghĩ cách<br><br>
         vocabulary: [
             { word: "执业 /zhíyè/ (动/名)", meaning: "hành nghề" },
             { word: "末端 /mòduān/ (名)", meaning: "phần cuối, phần ngọn" },
-            //{ word: "根本 /gēnběn/ (名/形)", meaning: "gốc rễ; căn bản" },
+            { word: "根本 /gēnběn/ (名/形)", meaning: "gốc rễ; căn bản" },
             { word: "忽略 /hūlüè/ (动)", meaning: "bỏ qua, xem nhẹ" },
             { word: "千家万户 /qiān jiā wàn hù/ (成语/名)", meaning: "mọi nhà, khắp nơi" },
             { word: "苗头 /miáotou/ (名)", meaning: "dấu hiệu ban đầu" },
             { word: "告慰 /gàowèi/ (动)", meaning: "an ủi (người đã khuất)" },
-            //{ word: "探索 /tànsuǒ/ (动)", meaning: "tìm tòi, khám phá" },
+            { word: "探索 /tànsuǒ/ (动)", meaning: "tìm tòi, khám phá" },
             { word: "验证 /yànzhèng/ (动)", meaning: "kiểm chứng" },
             { word: "危若冰谷 /wēi ruò bīng gǔ/ (成语/形)", meaning: "nguy hiểm như đi trên băng mỏng" }
         ],
@@ -4089,7 +4089,7 @@ Còn ai rảnh học “bát pháp chữ Vĩnh” nữa<br>
     },
     {
     id: 38,
-    description: "轧戏 - Yết Hí",
+    description: "轧戏 - Yết hí",
     type: 'BUSINESS NEWS',
     type1: 'Money and Markets',
    // type2: 'Latest',
@@ -4204,7 +4204,7 @@ Hơi nhỏ một chút<br><br>
 },
     {
         id: 39,
-        description: "乌蒙深处 - SÂU TRONG Ô MÔNG",
+        description: "乌蒙深处 - Sâu trong Ô Mông",
     //    type: 'TECHNOLOGY',
     //    type1: 'Tech and Innovation',
          type2: 'Latest',
@@ -4329,7 +4329,7 @@ Em vẫn muốn ở lại làng, ở bên mọi người<br>
     },
    {
     id: 40,
-    description: "我喜欢你 - YÊU EM TỪ DẠ DÀY",
+    description: "我喜欢你 - Yêu em từ dạ dày",
     type: 'BUSINESS NEWS',
     type1: 'Money and Markets',
   //  type2: 'Latest',
@@ -4436,7 +4436,7 @@ Cô nói xem có phải cô ta bị người ta đá rồi không?<br>
 </p>`},
     {
         id: 41,
-        description: "少年派 2 - THIẾU NIÊN PHÁI 2",
+        description: "少年派 2 - Thiếu niên phái 2",
         type: 'HEALTH NEWS',
         type1: 'Politics',
     //    type2: 'Latest',
@@ -4445,11 +4445,11 @@ Cô nói xem có phải cô ta bị người ta đá rồi không?<br>
         imgCaption: "Healthy food promoting mental well-being",
         video: "https://drive.google.com/file/d/1uauh0nSWLeQyOLw9RNAk_vvSIaukoUs7/preview",
         vocabulary: [
-            //{ word: "新闻系 / xīnwénxì / (名)", meaning: "khoa Báo chí; ngành Báo chí" },
+            { word: "新闻系 / xīnwénxì / (名)", meaning: "khoa Báo chí; ngành Báo chí" },
             { word: "彩印 / cǎiyìn / (动)", meaning: "in màu" },
             { word: "底薪 / dǐxīn / (名)", meaning: "lương cơ bản; lương cứng" },
             { word: "转正 / zhuǎnzhèng / (动)", meaning: "chuyển chính thức; được nhận chính thức" },
-            //{ word: "业绩 / yèjì / (名)", meaning: "thành tích; doanh số" },
+            { word: "业绩 / yèjì / (名)", meaning: "thành tích; doanh số" },
             { word: "提成 / tíchéng / (名)", meaning: "tiền hoa hồng; hoa hồng" },
             { word: "封顶 / fēngdǐng / (动)", meaning: "giới hạn mức tối đa" },
             { word: "补助 / bǔzhù / (名)", meaning: "trợ cấp; phụ cấp" },
@@ -4646,7 +4646,7 @@ lại tưởng chúng ta thiếu tinh thần phấn chấn<br><br>
             { word: "摘 /zhāi/ (动)", meaning: "tháo, gỡ" },
             { word: "躲 /duǒ/ (动)", meaning: "ẩn nấp, trốn tránh" },
             { word: "企图 /qǐtú/ (名/动)", meaning: "ý đồ, mưu đồ" },
-            //{ word: "主机 /zhǔjī/ (名)", meaning: "máy chủ" },
+            { word: "主机 /zhǔjī/ (名)", meaning: "máy chủ" },
             { word: "备份 /bèifèn/ (动/名)", meaning: "sao lưu" },
             { word: "复制 /fùzhì/ (动)", meaning: "sao chép" }
         ],
@@ -4919,7 +4919,7 @@ Anh giỏi quá<br>
     // },
     {
         id: 47,
-        description: "我，喜欢你 - YÊU EM TỪ DẠ DÀY",
+        description: "我，喜欢你 - Yêu em từ dạ dày",
         type: 'SPORT NEWS',
         type1: 'Politics',
       //  type2: 'Latest',
@@ -4930,7 +4930,7 @@ Anh giỏi quá<br>
         vocabulary: [
             { word: "反聘 /fǎnpìn/ (动)", meaning: "tuyển dụng lại" },
             { word: "嚣张 /xiāozhāng/ (形)", meaning: "huênh hoang, ngông (sắc thái mạnh)" },
-            //{ word: "敢情 /gǎnqíng/ (副)", meaning: "hóa ra là (khẩu ngữ, có sắc thái “à thì ra”)" },
+            { word: "敢情 /gǎnqíng/ (副)", meaning: "hóa ra là (khẩu ngữ, có sắc thái “à thì ra”)" },
             { word: "逮住 /dǎizhù/ (动)", meaning: "chộp lấy (khẩu ngữ, mạnh hơn 抓住)" },
             { word: "几斤几两", meaning: "biết rõ bản thân mình có bao nhiêu năng lực" },
             { word: "职衔 /zhíxián/ (名)", meaning: "chức danh (trang trọng hơn 职位)" },
@@ -5050,54 +5050,54 @@ Ra ngoài!<br><br>
     //         Experts suggest continued AI integration across industries will further enhance productivity.
     //     </p>`
     // },
-    {
-        id: 49,
-        description: "Breakthrough in medical technology enhances patient care",
-        type: 'HEALTH NEWS',
-        type1: 'Life Style',
-     //   type2: 'Latest',
-        author: 'Mia Robinson',
-        img: "../assets/img/img49.png",
-        imgCaption: "Medical technology in hospital",
-        video: "https://www.youtube.com/embed/ghzsMFvUMgs",
-        vocabulary: [
-            { word: "breakthrough", meaning: "bước đột phá" },
-            { word: "medical", meaning: "y tế" },
-            { word: "technology", meaning: "công nghệ" },
-            { word: "patient care", meaning: "chăm sóc bệnh nhân" }
-        ],
-        content: `<p>
-            New medical technology has been introduced to enhance patient care and treatment accuracy.
-            <br><br>
-            Hospitals report improved recovery times and better monitoring systems.
-            <br><br>
-            The innovation is expected to set new standards in healthcare management.
-        </p>`
-    },
-    {
-        id: 50,
-        description: "Record-breaking performance in international athletics championship",
-        type: 'SPORT NEWS',
-        type1: 'Life Style',
-      //  type2: 'Latest',
-        author: 'Oliver Garcia',
-        img: "../assets/img/img50.png",
-        imgCaption: "Athlete crossing finish line",
-        video: "https://www.youtube.com/embed/ghzsMFvUMgs",
-        vocabulary: [
-            { word: "record-breaking", meaning: "phá kỷ lục" },
-            { word: "performance", meaning: "thành tích" },
-            { word: "athletics", meaning: "thể thao điền kinh" },
-            { word: "championship", meaning: "giải vô địch" }
-        ],
-        content: `<p>
-            An athlete delivered a record-breaking performance at the international athletics championship.
-            <br><br>
-            Spectators applauded the exceptional display of skill and endurance.
-            <br><br>
-            The achievement is celebrated as a milestone in the sport's history.
-        </p>`
-    },
+    // {
+    //     id: 49,
+    //     description: "Breakthrough in medical technology enhances patient care",
+    //     type: 'HEALTH NEWS',
+    //     type1: 'Life Style',
+    //  //   type2: 'Latest',
+    //     author: 'Mia Robinson',
+    //     img: "../assets/img/img49.png",
+    //     imgCaption: "Medical technology in hospital",
+    //     video: "https://www.youtube.com/embed/ghzsMFvUMgs",
+    //     vocabulary: [
+    //         { word: "breakthrough", meaning: "bước đột phá" },
+    //         { word: "medical", meaning: "y tế" },
+    //         { word: "technology", meaning: "công nghệ" },
+    //         { word: "patient care", meaning: "chăm sóc bệnh nhân" }
+    //     ],
+    //     content: `<p>
+    //         New medical technology has been introduced to enhance patient care and treatment accuracy.
+    //         <br><br>
+    //         Hospitals report improved recovery times and better monitoring systems.
+    //         <br><br>
+    //         The innovation is expected to set new standards in healthcare management.
+    //     </p>`
+    // },
+    // {
+    //     id: 50,
+    //     description: "Record-breaking performance in international athletics championship",
+    //     type: 'SPORT NEWS',
+    //     type1: 'Life Style',
+    //   //  type2: 'Latest',
+    //     author: 'Oliver Garcia',
+    //     img: "../assets/img/img50.png",
+    //     imgCaption: "Athlete crossing finish line",
+    //     video: "https://www.youtube.com/embed/ghzsMFvUMgs",
+    //     vocabulary: [
+    //         { word: "record-breaking", meaning: "phá kỷ lục" },
+    //         { word: "performance", meaning: "thành tích" },
+    //         { word: "athletics", meaning: "thể thao điền kinh" },
+    //         { word: "championship", meaning: "giải vô địch" }
+    //     ],
+    //     content: `<p>
+    //         An athlete delivered a record-breaking performance at the international athletics championship.
+    //         <br><br>
+    //         Spectators applauded the exceptional display of skill and endurance.
+    //         <br><br>
+    //         The achievement is celebrated as a milestone in the sport's history.
+    //     </p>`
+    // },
     // {
     //     id: 51,
     //     description: "New financial regulations aim to stabilize banking sector",
@@ -5456,10 +5456,10 @@ Thôi… cái ví đó tớ khỏi tìm nữa<br><br>
     vocabulary: [
         { word: "军训 /jūnxùn/ (名)", meaning: "quân huấn" },
         { word: "事宜 /shìyí/ (名)", meaning: "sự việc, vấn đề" },
-        //{ word: "纪律 /jìlǜ/ (名)", meaning: "kỷ luật" },
+        { word: "纪律 /jìlǜ/ (名)", meaning: "kỷ luật" },
         { word: "惩罚 /chéngfá/ (动)", meaning: "trừng phạt, hình phạt" },
-        //{ word: "重点班 /zhòngdiǎn bān/ (名)", meaning: "lớp trọng điểm" },
-        //{ word: "竟然 /jìngrán/ (副)", meaning: "không ngờ, vậy mà" },
+        { word: "重点班 /zhòngdiǎn bān/ (名)", meaning: "lớp trọng điểm" },
+        { word: "竟然 /jìngrán/ (副)", meaning: "không ngờ, vậy mà" },
         { word: "争取 /zhēngqǔ/ (动)", meaning: "cố gắng đạt được" },
         { word: "精神面貌 /jīngshén miànmào/ (名)", meaning: "tác phong, tinh thần" },
         { word: "集合 /jíhé/ (动)", meaning: "tập trung" },
@@ -5540,17 +5540,17 @@ Từ lúc cậu đổi tên thành Trương Lục Nhượng<br>
     video: "https://drive.google.com/file/d/1uRRigPW7IFQDSfaca-6onE--J3dHb_rr/preview",
     vocabulary: [
         { word: "抓单 /zhuā dān/", meaning: "bắt lẻ" },
-        //{ word: "辅助 /fǔzhù/", meaning: "hỗ trợ (support)" },
+        { word: "辅助 /fǔzhù/", meaning: "hỗ trợ (support)" },
         { word: "控住 /kòngzhù/", meaning: "khống chế, giữ chân" },
         { word: "越塔 /yuètǎ/", meaning: "băng trụ" },
         { word: "开大 /kāi dà/", meaning: "bật chiêu cuối (ulti)" },
         { word: "退路 /tuìlù/", meaning: "đường rút" },
-        //{ word: "击杀 /jīshā/", meaning: "hạ gục" },
-        //{ word: "战术 /zhànshù/", meaning: "chiến thuật" },
-        //{ word: "抓机会 /zhuā jīhuì/", meaning: "bắt cơ hội" },
+        { word: "击杀 /jīshā/", meaning: "hạ gục" },
+        { word: "战术 /zhànshù/", meaning: "chiến thuật" },
+        { word: "抓机会 /zhuā jīhuì/", meaning: "bắt cơ hội" },
         { word: "游走 /yóuzǒu/", meaning: "di chuyển hỗ trợ" },
         { word: "团战 /tuánzhàn/", meaning: "giao tranh" },
-        //{ word: "压制 /yāzhì/", meaning: "áp chế" },
+        { word: "压制 /yāzhì/", meaning: "áp chế" },
         { word: "撤退 /chètuì/", meaning: "rút lui" },
         { word: "输出 /shūchū/", meaning: "sát thương" }
     ],
@@ -5711,11 +5711,11 @@ Thực ra chỉ là chiến thuật hỗ trợ toàn bản đồ bình thường
     imgCaption: "AI concept illustration",
     video: "https://drive.google.com/file/d/10pfvkMNfKBFGUPUOFDUDwgaiUVaYWj_i/preview",
     vocabulary: [
-        //{ word: "直播 /zhíbō/ (动/名)", meaning: "livestream" },
-        //{ word: "巅峰 /diānfēng/ (名)", meaning: "đỉnh cao" },
+        { word: "直播 /zhíbō/ (动/名)", meaning: "livestream" },
+        { word: "巅峰 /diānfēng/ (名)", meaning: "đỉnh cao" },
         { word: "冠亚军 /guànyàjūn/ (名)", meaning: "vô địch và á quân" },
-        //{ word: "对决 /duìjué/ (动/名)", meaning: "đối đầu" },
-        //{ word: "主持 /zhǔchí/ (动/名)", meaning: "dẫn chương trình / host" },
+        { word: "对决 /duìjué/ (动/名)", meaning: "đối đầu" },
+        { word: "主持 /zhǔchí/ (动/名)", meaning: "dẫn chương trình / host" },
         { word: "争夺战 /zhēngduózhàn/ (名)", meaning: "trận tranh giành" },
         { word: "偷袭 /tōuxí/ (动/名)", meaning: "đánh lén" },
         { word: "越塔强杀 /yuètǎ qiángshā/ (动)", meaning: "băng trụ ép giết" },
@@ -5724,7 +5724,7 @@ Thực ra chỉ là chiến thuật hỗ trợ toàn bản đồ bình thường
         { word: "打野 /dǎyě/ (动/名)", meaning: "đi rừng" },
         { word: "队友 /duìyǒu/ (名)", meaning: "đồng đội" },
         { word: "退出电竞圈 /tuìchū diànjìng quān/ (动)", meaning: "rút khỏi giới esports" },
-        //{ word: "协议 /xiéyì/ (名)", meaning: "thỏa thuận" }
+        { word: "协议 /xiéyì/ (名)", meaning: "thỏa thuận" }
     ],
     content: `<p>
 所以今天直播的呀<br>
@@ -5847,7 +5847,7 @@ Lại thua rồi<br>
 },
 {
     id: 60,
-    description: "你微笑时很美 - KHI EM MỈM CƯỜI RẤT ĐẸP",
+    description: "你微笑时很美 - Khi em mỉm cười rất đẹp",
     type: 'PODCAST',
     type1: 'Podcast',
     type2: 'Audio',
@@ -5856,7 +5856,7 @@ Lại thua rồi<br>
     imgCaption: "Cybersecurity podcast logo",
     video: "https://drive.google.com/file/d/1wstCHokNhIFuvegMcpDQwrc3-xZ-UHQm/preview",
     vocabulary: [
-        //{ word: "对阵 /duìzhèn/ (动)", meaning: "đối đầu" },
+        { word: "对阵 /duìzhèn/ (动)", meaning: "đối đầu" },
         { word: "截然不同 /jiérán bùtóng/", meaning: "hoàn toàn khác nhau" },
         { word: "几率 /jīlǜ/ (名)", meaning: "xác suất" },
         { word: "环节 /huánjié/ (名)", meaning: "giai đoạn" },
@@ -6188,15 +6188,15 @@ Làm thêm một ván nữa<br>
     video: "https://drive.google.com/file/d/1ZmbJU7h5wvX_1Uoo9_PuLZWtV9Ugr_zf/preview",
     vocabulary: [
         { word: "倾城 /qīngchéng/ (形)", meaning: "nghiêng nước nghiêng thành, cực kỳ xinh đẹp" },
-        //{ word: "天赋 /tiānfù/ (名)", meaning: "thiên phú" },
+        { word: "天赋 /tiānfù/ (名)", meaning: "thiên phú" },
         { word: "感情破裂 /gǎnqíng pòliè/", meaning: "tình cảm rạn nứt" },
         { word: "各不相干 /gè bù xiānggān/", meaning: "không liên quan gì đến nhau" },
         { word: "侠侣 /xiálǚ/ (名)", meaning: "đôi hiệp khách (vợ chồng trong game)" },
-        //{ word: "逆天 /nìtiān/ (形)", meaning: "nghịch thiên, cực kỳ bá đạo" },
+        { word: "逆天 /nìtiān/ (形)", meaning: "nghịch thiên, cực kỳ bá đạo" },
         { word: "沧海桑田 /cānghǎi sāngtián/", meaning: "bãi bể nương dâu, biến đổi lớn" },
         { word: "阴晴圆缺 /yīn qíng yuán quē/", meaning: "trăng lúc tròn lúc khuyết (sự thay đổi)" },
-        //{ word: "路人 /lùrén/ (名)", meaning: "người qua đường, người xa lạ" },
-        //{ word: "打怪 /dǎ guài/ (动)", meaning: "đánh quái vật" }
+        { word: "路人 /lùrén/ (名)", meaning: "người qua đường, người xa lạ" },
+        { word: "打怪 /dǎ guài/ (动)", meaning: "đánh quái vật" }
     ],
     content: `<p>
 其实以前我也觉得玩游戏很浪费时间<br>
@@ -6385,7 +6385,7 @@ Vâng. Xin lỗi thầy Trần cho đàng hoàng đi. Em chào thầy ạ. Nhậ
 },
 {
     id: 64,
-    description: "你好，旧时光 - XIN CHÀO, NGÀY XƯA ẤY",
+    description: "你好，旧时光 - Xin chào, ngày xưa ấy",
     type: 'EMAIL',
     type1: 'Email',
     type2: 'Newsletter',

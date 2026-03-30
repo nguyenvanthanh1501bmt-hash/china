@@ -59,7 +59,7 @@ export function renderNewsPortContent() {
 
   const vocabularyHtml = article.vocabulary && article.vocabulary.length > 0
     ? `<div class="news__vocabulary-box">
-         <h3>Vocabulary</h3>
+         <h3>Từ vựng mới</h3>
          <ul class="vocab-list">
            ${article.vocabulary.map(v => `<li><strong>${v.word}</strong>: ${v.meaning}</li>`).join("")}
          </ul>

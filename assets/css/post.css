@@ -124,10 +124,27 @@
     gap: 8px;
     font-size: 16px;
     line-height: 1.4;
+
+    overflow-y: auto;
+
+    max-height: 350px;
 }
 
 .news__article-content {
-    margin-bottom: 20px;
+    /* 1. Kích hoạt cuộn dọc */
+    max-height: 500px;
+    overflow-y: auto;
+    
+    /* 2. Nhận dạng: Màu nền vàng nhạt (giống button của bạn nhưng mờ hơn) */
+    background: rgba(227, 202, 163, 0.15); /* #e3caa3 với độ mờ 15% */
+    border: 1px dashed rgba(0, 0, 0, 0.2); /* Viền đứt nét mờ */
+    border-radius: 15px;
+    padding: 25px;
+    
+    /* Đổ bóng nhẹ để tạo chiều sâu */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    
+    margin-bottom: 30px;
 }
 
 @media (max-width: 900px) {
