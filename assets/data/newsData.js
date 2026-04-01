@@ -21,7 +21,7 @@ export const newsData = {
         { id: 7, title: "幸福到万家", description: "Hạnh phúc đến vạn gia", image: "img/img7.png", video: "https://drive.google.com/file/d/12blEFFBlMN7eu5I-3oAiJ4F3SgCM77xR/preview" },
         { id: 33, title: "爱你", description: "Yêu em", image: "img/img8.png", video: "https://drive.google.com/file/d/1g0FRBeVyPjtxhUtzwfAP472DYL5BWKpw/preview" },
         
-        { id: 8, title: "焕羽 - Hoán vũ", image: "img/img33.jpg", video: "https://drive.google.com/file/d/16WT7EOpobHM4hRNikjU7wR5adNALOTnT/preview" },
+        { id: 8, title: "焕羽", description: "Hoán vũ", image: "img/img33.jpg", video: "https://drive.google.com/file/d/16WT7EOpobHM4hRNikjU7wR5adNALOTnT/preview" },
     ],
 
     lifestyle: {

@@ -1,34 +1,63 @@
-/* Related Article Card */
+/* ================================================================
+   RELATED CARD - FIX THÒ THỤT & VIDEO (IOS + ANDROID)
+   ================================================================ */
 .related-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   cursor: pointer;
   text-decoration: none;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  height: 100%; /* Đảm bảo các card đều cao bằng nhau */
 }
 
 .related-card:hover {
+  -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
+/* --- KHÓA CHẾT KHUNG ẢNH 240PX --- */
 .related-card__image {
   width: 100%;
   height: 240px;
-  background-color: #d1d1d1;
-  border-radius: 4px;
+  background-color: #000; 
+  border-radius: 8px; 
   overflow: hidden;
   margin-bottom: 16px;
+  position: relative; 
+  /* Fix bo góc cho Safari iOS */
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  isolation: isolate;
 }
 
-.related-card__image img {
-  width: 100%;
-  height: 100%;
+/* ÉP IMG VÀ IFRAME LẤP ĐẦY KHUNG */
+.related-card__image img,
+.related-card__image iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover;
   object-fit: cover;
+  border: none;
+  display: block;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .related-card:hover .related-card__image img {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .related-card__category {
@@ -40,29 +69,36 @@
   margin-bottom: 8px;
 }
 
+/* --- FIX THÒ THỤT TIÊU ĐỀ --- */
 .related-card__title {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
   color: #1a1a1a;
   margin-bottom: 10px;
+  /* Khóa 2 dòng */
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  /* Giữ chỗ trống 2 dòng để các meta bên dưới luôn thẳng hàng */
+  min-height: 2.8em; 
 }
 
 .related-card__meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 8px;
   font-size: 13px;
   color: #888;
+  margin-top: auto; /* Đẩy meta xuống sát đáy card */
 }
-.related-card__meta span + span {
-  /* Tạo đường kẻ bên trái */
-  border-left: 2px solid #cccccc; /* 1px độ dày, nét liền, màu xám nhạt */
 
-  /* Thêm khoảng cách đệm bên trái để chữ không dính vào đường kẻ */
+.related-card__meta span + span {
+  border-left: 1.5px solid #cccccc;
   padding-left: 10px;
 }

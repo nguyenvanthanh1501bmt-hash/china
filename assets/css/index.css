@@ -75,6 +75,10 @@
     border-radius: 12px;
 }
 
+.latest-new h2 {
+    font-weight: lighter; 
+}
+
 .left1 .boxuppertitle {
     margin-bottom: 10px;
 }
@@ -86,6 +90,7 @@
 .latest-new {
     cursor: pointer;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    margin-bottom: 30px;
 }
 
 .left1:hover .latest-new:not(:hover) {

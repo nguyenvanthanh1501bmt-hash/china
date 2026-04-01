@@ -35,7 +35,7 @@ export function createArticleCard(article) {
 
   <div class="article-card__content">
     <div>
-      <div class="article-card__category">${article.type}</div>
+
       <h2 class="article-card__title">${article.description}</h2>
       <h3 class="article-card__excerpt">${truncateSimple(
         article.content,
